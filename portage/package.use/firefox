@@ -1,0 +1,4 @@
+# Firefox
+www-client/firefox bindist
+media-libs/libvpx postproc
+dev-db/sqlite secure-delete

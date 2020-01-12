@@ -1,0 +1,22 @@
+# Group/User/Virtual
+acct-group/*				nobin
+acct-user/*				nobin
+virtual/*				nobin
+# Is binary
+*/*-bin					nobin
+sys-kernel/*sources			nobin
+# Limited by bindist
+dev-libs/gf2x				nobin
+dev-libs/openssl			nobin
+dev-libs/openssl-compat			nobin
+dev-qt/qtnetwork			nobin
+media-libs/freetype			nobin
+net-libs/liboauth			nobin
+net-misc/openssh			nobin
+net-misc/socat				nobin
+net-wireless/wpa_supplicant		nobin
+sys-apps/ucspi-ssl			nobin
+# Has to be built for a certain kernel
+app-emulation/virtualbox-modules	nobin
+sys-kernel/linux-firmware		nobin
+x11-drivers/nvidia-drivers		nobin

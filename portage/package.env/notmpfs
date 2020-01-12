@@ -1,0 +1,7 @@
+app-office/libreoffice	notmpfs
+mail-client/thunderbird notmpfs
+sys-devel/gcc		notmpfs
+www-client/chromium	notmpfs
+www-client/firefox	notmpfs
+dev-lang/ghc		notmpfs
+dev-lang/rust		notmpfs

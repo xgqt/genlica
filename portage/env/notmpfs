@@ -1,0 +1,3 @@
+# https://wiki.gentoo.org/wiki/Portage_TMPDIR_on_tmpfs
+PORTAGE_TMPDIR="/var/notmp"
+

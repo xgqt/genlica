@@ -1,0 +1,10 @@
+# Exclude QT5
+app-crypt/gpgme -qt5
+app-crypt/pinentry -qt5
+dev-util/cmake -qt5
+media-libs/openal -qt5
+media-libs/opencv -qt5
+media-sound/pulseaudio -qt5
+net-p2p/transmission -qt5
+net-wireless/wpa_supplicant -qt5
+sci-visualization/gnuplot -qt5

@@ -1,0 +1,5 @@
+# Kernel-based Virtual Machine
+app-emulation/qemu QEMU_SOFTMMU_TARGETS: aarch64 arm x86_64
+app-emulation/qemu QEMU_USER_TARGETS: aarch64 arm x86_64
+app-emulation/qemu usbredir ssh
+net-misc/spice-gtk usbredir

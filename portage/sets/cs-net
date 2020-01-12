@@ -1,0 +1,24 @@
+# Custom Set: Net
+#
+# To install:
+#	emerge -av @cs-net
+#
+# The set will be added to:
+#	/var/lib/portage/world_sets
+#
+# To remove:
+#	emerge --deselect @cs-net
+#
+net-analyzer/iptraf-ng
+net-analyzer/mtr
+net-analyzer/nmap
+net-analyzer/openbsd-netcat
+net-analyzer/tcpdump
+net-analyzer/tcptraceroute
+net-analyzer/traceroute
+net-dns/bind-tools
+net-misc/bridge-utils
+net-misc/iputils
+net-misc/netkit-telnetd
+net-misc/whois
+sys-apps/ethtool

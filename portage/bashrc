@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+if [[ ${FEATURES} == *ccache* && ${EBUILD_PHASE_FUNC} == src_* ]]
+then
+    if [[ ${CCACHE_DIR} == /var/cache/ccache ]]
+    then
+	export CCACHE_DIR=/var/cache/ccache/${CATEGORY}/${PN}
+	mkdir -p "${CCACHE_DIR}" || die
+	if [ -f /var/cache/ccache/ccache.conf ]
+	then
+	   cp /var/cache/ccache/ccache.conf /var/cache/ccache/${CATEGORY}/${PN}/ccache.conf || die
+	fi
+    fi
+fi

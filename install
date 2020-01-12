@@ -1,0 +1,28 @@
+#!/bin/sh
+
+
+if [ -d /etc/portage ] && [ ! -d /etc/portage.bak ]
+then
+   mv /etc/portage /etc/portage.bak || exit 1
+fi
+
+mkdir /etc/portage
+mkdir /etc/portage/env
+mkdir /etc/portage/make.conf
+mkdir /etc/portage/package.accept_keywords
+mkdir /etc/portage/package.env
+mkdir /etc/portage/package.mask
+mkdir /etc/portage/package.use
+mkdir /etc/portage/repo.postsync.d
+mkdir /etc/portage/repos.conf
+mkdir /etc/portage/savedconfig
+mkdir /etc/portage/sets
+
+stow -v portage -t /etc/portage || exit 1
+
+eselect profile set default/linux/amd64/17.1/desktop
+
+cat > /etc/portage/make.conf/personal-01.conf <<EOF
+MAKEOPTS="--jobs=$(nproc) --load-average=$(nproc)"
+CPU_FLAGS_X86="$(cpuid2cpuflags | awk -F : '{print $2}')"
+EOF

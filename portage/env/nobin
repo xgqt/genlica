@@ -1,0 +1,9 @@
+# Native build
+
+FEATURES="-buildpkg"
+
+COMMON_FLAGS="-march=native -O2 -pipe"
+CFLAGS="${COMMON_FLAGS} -fomit-frame-pointer"
+CXXFLAGS="${CFLAGS}"
+FFLAGS="${COMMON_FLAGS}"
+FCFLAGS="${FFLAGS}"

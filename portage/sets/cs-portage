@@ -1,0 +1,18 @@
+# Custom Set: Portage
+#
+# To install:
+#	emerge -av @cs-portage
+#
+# The set will be added to:
+#	/var/lib/portage/world_sets
+#
+# To remove:
+#	emerge --deselect @cs-portage
+#
+app-doc/eclass-manpages
+app-eselect/eselect-repository
+app-portage/eix
+app-portage/gentoolkit
+app-portage/portage-utils
+app-portage/smart-live-rebuild
+dev-vcs/git

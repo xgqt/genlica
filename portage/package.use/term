@@ -1,0 +1,13 @@
+# Terminal Emulators
+
+# rxvt-unicode
+x11-terms/rxvt-unicode 256-color blink fading-colors font-styles gdk-pixbuf mousewheel startup-notification xft -perl
+
+# GNOME Terminal
+x11-terms/gnome-terminal -debug -gnome-shell -nautilus
+
+# Kitty
+x11-terms/kitty imagemagick
+
+# Cool-Retro-Term
+dev-qt/qtdeclarative localstorage

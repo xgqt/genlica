@@ -1,0 +1,8 @@
+# Some options to support certain FS
+
+# Gparted
+# fat => sys-fs/dosfstools
+sys-block/gparted fat btrfs cryptsetup dmraid f2fs jfs mdadm ntfs xfs
+
+# GNOME Disks
+sys-apps/gnome-disk-utility fat

@@ -1,0 +1,12 @@
+# Optimize harder
+#
+# Pędzili 209 km/h.
+#
+# Ona nie miała kasku, mocno go przytuliła.
+# On wiedział, że hamulce nie działają.
+# Powiedział jej, że bardzo ją kocha,
+# oddał swój kask i wyhamował lakierkami.
+#
+CFLAGS="-march=native -O3 -pipe -flto=4"
+CXXFLAGS="${CFLAGS}"
+

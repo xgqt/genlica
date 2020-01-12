@@ -1,0 +1,3 @@
+# Linux Kernel Sources
+sys-kernel/*-sources
+sys-kernel/linux-headers

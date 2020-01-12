@@ -1,0 +1,11 @@
+# Python
+dev-lang/python tk sqlite
+#*/* PYTHON_TARGETS: python3_6
+# Those pkgs need python 2:
+#app-text/gnome-doc-utils       python_targets_python2_7
+#dev-util/itstool               python_targets_python2_7
+#dev-java/javatoolkit           python_targets_python2_7
+#dev-libs/libxml2               python_targets_python2_7
+#dev-python/certifi             python_targets_python2_7
+#dev-python/setuptools          python_targets_python2_7
+#sys-devel/clang:8              python_targets_python2_7

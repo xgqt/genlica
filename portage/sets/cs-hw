@@ -1,0 +1,16 @@
+# Custom Set: Hw
+#
+# To install:
+#	emerge -av @cs-hw
+#
+# The set will be added to:
+#	/var/lib/portage/world_sets
+#
+# To remove:
+#	emerge --deselect @cs-hw
+#
+app-admin/eclean-kernel
+sys-apps/lshw
+sys-apps/smartmontools
+sys-apps/usbutils
+sys-apps/pciutils

@@ -1,0 +1,9 @@
+# Nextcloud
+#www-apps/nextcloud sqlite
+dev-lang/php apache2 cjk ftp fpm truetype curl zip gd pdo sqlite intl xmlreader xmlwriter xpm threads
+app-eselect/eselect-php apache2 fpm
+media-gfx/imagemagick -openmp
+# Apache
+www-servers/apache threads apache2_mpms_worker
+# PHP
+*/* PHP_TARGETS: -php7-2 php7-3
