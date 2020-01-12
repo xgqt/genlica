@@ -31,7 +31,8 @@ PORTAGE_TMPDIR="/var/tmp"
 # * Output of cpuid2cpuflags
 # CPU_FLAGS_X86=""
 
-COMMON_FLAGS="-march=native -O2 -fomit-frame-pointer -pipe"
+# * You probably want sth like this
+# COMMON_FLAGS="-march=native -O2 -fomit-frame-pointer -pipe"
 
 # C
 CFLAGS="${COMMON_FLAGS}"

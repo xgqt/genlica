@@ -22,7 +22,11 @@ stow -v portage -t /etc/portage || exit 1
 
 eselect profile set default/linux/amd64/17.1/desktop
 
-cat > /etc/portage/make.conf/personal-01.conf <<EOF
+if [ ! -e /etc/portage/make.conf/personal-01 ]
+then
+    cat > /etc/portage/make.conf/personal-01 <<EOF
 MAKEOPTS="--jobs=$(nproc) --load-average=$(nproc)"
 CPU_FLAGS_X86="$(cpuid2cpuflags | awk -F : '{print $2}')"
+COMMON_FLAGS="-march=native -O2 -fomit-frame-pointer -pipe"
 EOF
+fi
