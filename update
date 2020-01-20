@@ -1,0 +1,15 @@
+#!/bin/sh
+
+
+# Update genlica
+
+
+set -e
+export PATH
+
+
+git reset --hard
+
+git pull
+
+stow -v portage -t /etc/portage
