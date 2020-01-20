@@ -9,7 +9,7 @@ export PATH
 
 
 git reset --hard
-
 git pull
 
+stow -D -v portage -t /etc/portage
 stow -v portage -t /etc/portage
