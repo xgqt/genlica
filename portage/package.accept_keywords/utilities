@@ -11,13 +11,6 @@ net-libs/grpc
 dev-util/sysdig
 x11-libs/vte
 
-# Live
-net-analyzer/arp-scan **
-net-misc/youtube-dl **
-dev-python/pafy **
-media-sound/mps-youtube **
-games-emulation/ppsspp **
-
 # Full category
 net-im/*
 x11-themes/*
