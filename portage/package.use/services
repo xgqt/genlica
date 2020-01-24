@@ -1,6 +1,6 @@
 # Nextcloud
 #www-apps/nextcloud sqlite
-dev-lang/php apache2 cjk ftp fpm truetype curl zip gd pdo sqlite intl xmlreader xmlwriter xpm threads
+dev-lang/php apache2 cjk ftp fpm truetype curl zip gd pcntl pdo sqlite intl xmlreader xmlwriter xpm threads
 app-eselect/eselect-php apache2 fpm
 media-gfx/imagemagick -openmp
 # Apache
