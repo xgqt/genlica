@@ -1,0 +1,14 @@
+#!/bin/sh
+
+
+echo_msg() {
+	echo "$(tput bold)$*$(tput sgr0)"
+}
+
+
+[ ! -d /etc/portage ] && echo_msg "No portage trree found" && exit 1
+[ ! -d ./portage ] && ech_msg "No genlica's portage directory found" && exit 1
+
+echo_msg "Differences between genlica's portage tree and the local one:"
+
+diff -rq /etc/portage/ ./portage | sed 's/:/ -->/g'
