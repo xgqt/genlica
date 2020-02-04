@@ -1,7 +1,8 @@
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=4"
-FEATURES="${FEATURES} ccache"
 
+FEATURES="${FEATURES} ccache"
 CCACHE_DIR="/var/cache/ccache"
 
 VIDEO_CARDS="nvidia"
+
 L10N="de en pl"
