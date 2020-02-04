@@ -27,6 +27,6 @@ then
     cat > /etc/portage/make.conf/00-personal <<EOF
 MAKEOPTS="--jobs=$(nproc) --load-average=$(nproc)"
 CPU_FLAGS_X86="$(cpuid2cpuflags | awk -F : '{print $2}')"
-COMMON_FLAGS="-march=native -O2 -fomit-frame-pointer -pipe"
+COMMON_FLAGS="-march=native -O2 -pipe"
 EOF
 fi
