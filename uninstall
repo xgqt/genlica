@@ -1,3 +1,15 @@
 #!/bin/sh
 
-stow -D -v portage -t /etc/portage
+
+main() {
+	stow -D -v portage -t /etc/portage
+	echo "There may be some trash left over"
+}
+
+
+if [ "$(whoami)" != root ]
+then
+	sudo $0
+else
+	main
+fi

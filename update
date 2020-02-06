@@ -8,8 +8,19 @@ set -e
 export PATH
 
 
-git reset --hard
-git pull
+main() {
 
-stow -D -v portage -t /etc/portage
-stow -v portage -t /etc/portage
+	git reset --hard
+	git pull
+
+	stow -D -v portage -t /etc/portage
+	stow -v portage -t /etc/portage
+}
+
+
+if [ "$(whoami)" != root ]
+then
+	sudo $0
+else
+	main
+fi

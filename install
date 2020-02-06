@@ -1,32 +1,48 @@
 #!/bin/sh
 
 
-if [ -d /etc/portage ] && [ ! -d /etc/portage.bak ]
-then
-   mv /etc/portage /etc/portage.bak || exit 1
-fi
+main() {
 
-mkdir /etc/portage
-mkdir /etc/portage/env
-mkdir /etc/portage/make.conf
-mkdir /etc/portage/package.accept_keywords
-mkdir /etc/portage/package.env
-mkdir /etc/portage/package.mask
-mkdir /etc/portage/package.use
-mkdir /etc/portage/repo.postsync.d
-mkdir /etc/portage/repos.conf
-mkdir /etc/portage/savedconfig
-mkdir /etc/portage/sets
+	if [ -d /etc/portage ] && [ ! -d /etc/portage.bak ]
+	then
+		mv /etc/portage /etc/portage.bak || exit 1
+	fi
 
-stow -v portage -t /etc/portage || exit 1
+	mkdir /etc/portage
+	mkdir /etc/portage/env
+	mkdir /etc/portage/make.conf
+	mkdir /etc/portage/package.accept_keywords
+	mkdir /etc/portage/package.env
+	mkdir /etc/portage/package.mask
+	mkdir /etc/portage/package.use
+	mkdir /etc/portage/repo.postsync.d
+	mkdir /etc/portage/repos.conf
+	mkdir /etc/portage/savedconfig
+	mkdir /etc/portage/sets
 
-eselect profile set default/linux/amd64/17.1/desktop
+	stow -v portage -t /etc/portage || exit 1
 
-if [ ! -e /etc/portage/make.conf/00-personal ]
-then
-    cat > /etc/portage/make.conf/00-personal <<EOF
+	eselect profile set default/linux/amd64/17.1/desktop
+
+	if [ ! -e /etc/portage/make.conf/00-personal ]
+	then
+		cat > /etc/portage/make.conf/00-personal <<EOF
 MAKEOPTS="--jobs=$(nproc) --load-average=$(nproc)"
 CPU_FLAGS_X86="$(cpuid2cpuflags | awk -F : '{print $2}')"
 COMMON_FLAGS="-march=native -O2 -pipe"
 EOF
+	fi
+
+	if [ -x ./create_notmp ]
+	then
+		sh create_notmp
+	fi
+}
+
+
+if [ "$(whoami)" != root ]
+then
+	sudo $0
+else
+	main
 fi
