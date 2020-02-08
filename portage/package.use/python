@@ -1,11 +1,17 @@
 # Python
 dev-lang/python tk sqlite
-#*/* PYTHON_TARGETS: python3_6
-# Those pkgs need python 2:
-#app-text/gnome-doc-utils       python_targets_python2_7
-#dev-util/itstool               python_targets_python2_7
-#dev-java/javatoolkit           python_targets_python2_7
-#dev-libs/libxml2               python_targets_python2_7
-#dev-python/certifi             python_targets_python2_7
-#dev-python/setuptools          python_targets_python2_7
-#sys-devel/clang:8              python_targets_python2_7
+
+# Exclude python2.7 from python_targets
+*/* PYTHON_TARGETS: -python2_7
+
+# Those pkgs need python2:
+app-emulation/virtualbox	python_targets_python2_7
+dev-python/bz2file		python_targets_python2_7
+dev-python/certifi		python_targets_python2_7
+dev-python/m2crypto		python_targets_python2_7
+dev-python/pyblake2		python_targets_python2_7
+dev-python/pyxattr		python_targets_python2_7
+dev-python/scandir		python_targets_python2_7
+dev-python/setuptools		python_targets_python2_7
+dev-python/typing		python_targets_python2_7
+virtual/python-typing		python_targets_python2_7
