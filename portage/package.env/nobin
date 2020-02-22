@@ -39,3 +39,9 @@ sys-apps/ucspi-ssl			nobin
 app-emulation/virtualbox-modules	nobin
 sys-kernel/linux-firmware		nobin
 x11-drivers/nvidia-drivers		nobin
+
+
+# Too wide USE diversity
+# Clients will likely have to build it anyway
+
+x11-base/xorg-drivers			nobin
