@@ -62,8 +62,6 @@ USE="
 	zsh-completion
 "
 
-ABI_X86="64 32"
-
 # * Your video drivers
 # VIDEO_CARDS=""
 
