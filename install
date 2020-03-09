@@ -3,46 +3,71 @@
 
 main() {
 
-	if [ -d /etc/portage ] && [ ! -d /etc/portage.bak ]
+    # Back up the old portage directory
+	if [ -d "${EPREFIX}/etc/portage" ] && [ ! -d "${EPREFIX}/etc/portage.bak" ]
 	then
-		mv /etc/portage /etc/portage.bak || exit 1
+		mv "${EPREFIX}/etc/portage" "${EPREFIX}/etc/portage.bak" || exit 1
 	fi
 
-	mkdir /etc/portage
-	mkdir /etc/portage/env
-	mkdir /etc/portage/make.conf
-	mkdir /etc/portage/package.accept_keywords
-	mkdir /etc/portage/package.env
-	mkdir /etc/portage/package.mask
-	mkdir /etc/portage/package.use
-	mkdir /etc/portage/repo.postsync.d
-	mkdir /etc/portage/repos.conf
-	mkdir /etc/portage/savedconfig
-	mkdir /etc/portage/sets
+    # Reconstruct portage directory
+	mkdir "${EPREFIX}/etc/portage"
+	mkdir "${EPREFIX}/etc/portage/env"
+	mkdir "${EPREFIX}/etc/portage/make.conf"
+	mkdir "${EPREFIX}/etc/portage/package.accept_keywords"
+	mkdir "${EPREFIX}/etc/portage/package.env"
+	mkdir "${EPREFIX}/etc/portage/package.mask"
+	mkdir "${EPREFIX}/etc/portage/package.use"
+	mkdir "${EPREFIX}/etc/portage/repo.postsync.d"
+	mkdir "${EPREFIX}/etc/portage/repos.conf"
+	mkdir "${EPREFIX}/etc/portage/savedconfig"
+	mkdir "${EPREFIX}/etc/portage/sets"
 
-	stow -v portage -t /etc/portage || exit 1
+    # Install genlica
+	stow -v portage -t "${EPREFIX}/etc/portage" || exit 1
 
-	eselect profile set default/linux/amd64/17.1/desktop
+    # Select the profile
+    if [ -z "${EPREFIX}" ]
+    then
+	    eselect profile set default/linux/amd64/17.1/desktop
+    fi
 
-	if [ ! -e /etc/portage/make.conf/00-personal ]
+    # Create basic addition to 99-main
+	if [ ! -e "${EPREFIX}/etc/portage/make.conf/00-personal" ]
 	then
-		cat > /etc/portage/make.conf/00-personal <<EOF
+		cat > "${EPREFIX}/etc/portage/make.conf/00-personal" <<EOF
 MAKEOPTS="--jobs=$(nproc) --load-average=$(nproc)"
 CPU_FLAGS_X86="$(cpuid2cpuflags | awk -F : '{print $2}')"
 COMMON_FLAGS="-march=native -O2 -pipe"
 EOF
 	fi
 
-	if [ -x ./create_notmp ]
+    # Setup the gentoo repository
+    # Edit this afterwards if you are on Eprefix or Funtoo
+	if [ ! -e "${EPREFIX}/etc/portage/repos.conf/gentoo.conf" ]
+	then
+		cat > "${EPREFIX}/etc/portage/repos.conf/gentoo.conf" <<EOF
+[DEFAULT]
+main-repo = gentoo
+ 
+[gentoo]
+location = /var/db/repos/gentoo
+sync-type = git
+sync-uri = https://github.com/gentoo-mirror/gentoo.git
+auto-sync = yes
+EOF
+	fi
+
+    # Add notmp
+	if [ -x ./create_notmp ] && [ -z "${EPREFIX}" ]
 	then
 		sh create_notmp
 	fi
 }
 
 
-if [ "$(whoami)" != root ]
+if [ "$(whoami)" != root ] && [ -z "${EPREFIX}" ]
 then
-	sudo $0
+	sudo "$0"
 else
 	main
 fi

@@ -13,14 +13,14 @@ main() {
 	git reset --hard
 	git pull
 
-	stow -D -v portage -t /etc/portage
-	stow -v portage -t /etc/portage
+	stow -D -v portage -t "${EPREFIX}/etc/portage"
+	stow -v portage -t "${EPREFIX}/etc/portage"
 }
 
 
-if [ "$(whoami)" != root ]
+if [ "$(whoami)" != root ] && [ -z "${EPREFIX}" ]
 then
-	sudo $0
+	sudo "$0"
 else
 	main
 fi

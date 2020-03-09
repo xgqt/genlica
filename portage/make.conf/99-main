@@ -19,11 +19,11 @@ EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --keep-going --with-bdeps=y"
 FEATURES="${FEATURES} noinfo"
 # * Whether you need ccache
 # FEATURES="${FEATURES} ccache"
-# CCACHE_DIR="/var/cache/ccache"
+# CCACHE_DIR="${EPREFIX}/var/cache/ccache"
 
-DISTDIR="/var/cache/distfiles"
-PKGDIR="/var/cache/binpkgs"
-PORTAGE_TMPDIR="/var/tmp"
+DISTDIR="${EPREFIX}/var/cache/distfiles"
+PKGDIR="${EPREFIX}/var/cache/binpkgs"
+PORTAGE_TMPDIR="${EPREFIX}/var/tmp"
 
 
 # >>> Compilation flags
