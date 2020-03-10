@@ -1,5 +1,5 @@
 # Python
-dev-lang/python tk sqlite
+dev-lang/python sqlite
 
 # Exclude python2.7 from python_targets
 */* PYTHON_TARGETS: -python2_7

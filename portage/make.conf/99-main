@@ -55,7 +55,7 @@ USE="
 	multilib -bindist -gpm
 	bluetooth initramfs firmware lm-sensors usb v4l wifi xinerama
 	X -wayland
-	branding gtk3 xft -gtk2 -gnome -qt4
+	branding gtk3 tk xft -gtk2 -gnome -qt4
 	alsa git gpg mtp networkmanager pulseaudio sound
 	-gnome-online-accounts -nautilus -perl -samba -tracker
 	gif jpeg png raw svg xpm
