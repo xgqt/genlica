@@ -3,7 +3,7 @@
 
 # PHP
 */* PHP_TARGETS: -php7-2 -php7-3 php7-4
-dev-lang/php apache2 cjk ftp fpm truetype curl zip gd pcntl pdo sqlite intl xmlreader xmlwriter xpm threads
+dev-lang/php apache2 cgi cjk ftp fpm truetype curl zip gd pcntl pdo sqlite intl xmlreader xmlwriter xpm threads
 app-eselect/eselect-php apache2 fpm
 media-gfx/imagemagick -openmp
 
