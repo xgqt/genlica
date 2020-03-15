@@ -51,6 +51,7 @@ LDCFLAGS="-O4 -release"
 # >>> USE flags
 
 USE="
+	${USE}
 	elogind -consolekit -systemd
 	multilib -bindist -gpm
 	bluetooth initramfs firmware lm-sensors usb v4l wifi xinerama

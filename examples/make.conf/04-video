@@ -1,0 +1,5 @@
+# Intel
+# VIDEO_CARDS="i965"
+
+# Nvidia
+VIDEO_CARDS="nvidia"

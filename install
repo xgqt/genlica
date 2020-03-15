@@ -32,12 +32,28 @@ main() {
     fi
 
     # Create basic addition to 99-main
-	if [ ! -e "${EPREFIX}/etc/portage/make.conf/00-personal" ]
+    if [ ! -e "${EPREFIX}/etc/portage/make.conf/00-x86" ]
 	then
-		cat > "${EPREFIX}/etc/portage/make.conf/00-personal" <<EOF
-MAKEOPTS="--jobs=$(nproc) --load-average=$(nproc)"
+		cat > "${EPREFIX}/etc/portage/make.conf/00-x86" <<EOF
 CPU_FLAGS_X86="$(cpuid2cpuflags | awk -F : '{print $2}')"
+EOF
+	fi
+	if [ ! -e "${EPREFIX}/etc/portage/make.conf/01-makeopts" ]
+	then
+		cat > "${EPREFIX}/etc/portage/make.conf/01-makeopts" <<EOF
+MAKEOPTS="--jobs=$(nproc) --load-average=$(nproc)"
+EOF
+	fi
+    if [ ! -e "${EPREFIX}/etc/portage/make.conf/02-flags" ]
+	then
+		cat > "${EPREFIX}/etc/portage/make.conf/02-flags" <<EOF
 COMMON_FLAGS="-march=native -O2 -pipe"
+EOF
+	fi
+    if [ ! -e "${EPREFIX}/etc/portage/make.conf/03-emerge" ]
+	then
+		cat > "${EPREFIX}/etc/portage/make.conf/03-emerge" <<EOF
+EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=$(nproc)"
 EOF
 	fi
 

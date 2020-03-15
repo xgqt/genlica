@@ -1,0 +1,3 @@
+FEATURES="${FEATURES} ccache"
+USE="${USE} ccache"
+CCACHE_DIR="/var/cache/ccache"
