@@ -53,7 +53,7 @@ LDCFLAGS="-O4 -release"
 USE="
 	${USE}
 	elogind -consolekit -systemd
-	multilib -bindist -gpm
+	multilib pie -bindist -gpm
 	bluetooth initramfs firmware lm-sensors usb v4l wifi xinerama
 	X -wayland
 	branding gtk3 tk xft -gtk2 -gnome -qt4
