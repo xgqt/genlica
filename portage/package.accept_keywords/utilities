@@ -1,5 +1,10 @@
 # Miscellaneous Utilities
 
+# Pkgcore
+dev-util/pkgcheck
+sys-apps/pkgcore
+dev-python/snakeoil
+
 # Selected
 app-editors/emacs
 app-portage/eix
