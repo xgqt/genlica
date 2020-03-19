@@ -1,11 +1,18 @@
 # Miscellaneous Utilities
 
+# Live
+net-analyzer/arp-scan **
+net-misc/youtube-dl **
+dev-python/pafy **
+media-sound/mps-youtube **
+games-emulation/ppsspp **
+
 # Pkgcore
 dev-util/pkgcheck
 sys-apps/pkgcore
 dev-python/snakeoil
 
-# Selected
+# Other
 app-editors/emacs
 app-portage/eix
 app-shells/zsh
@@ -14,9 +21,8 @@ dev-vcs/git
 net-misc/nextcloud-client
 net-libs/grpc
 dev-util/sysdig
-x11-libs/vte
 
-# Full category
+# Category
 net-im/*
 x11-themes/*
 x11-terms/*
