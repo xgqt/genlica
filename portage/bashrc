@@ -1,14 +1,17 @@
 #!/usr/bin/env bash
 
-if [[ ${FEATURES} == *ccache* && ${EBUILD_PHASE_FUNC} == src_* ]]
+
+if [[ "${FEATURES}" == *ccache* && "${EBUILD_PHASE_FUNC}" == src_* ]]
 then
-    if [[ ${CCACHE_DIR} == /var/cache/ccache ]]
+    if [[ "${CCACHE_DIR}" == "${EPREFIX}"/var/cache/ccache ]]
     then
-	export CCACHE_DIR=/var/cache/ccache/${CATEGORY}/${PN}
-	mkdir -p "${CCACHE_DIR}" || die
-	if [ -f /var/cache/ccache/ccache.conf ]
-	then
-	   cp /var/cache/ccache/ccache.conf /var/cache/ccache/${CATEGORY}/${PN}/ccache.conf || die
-	fi
+        # Set the ccache dir to whatever CCACHE_DIR is + category + name of the package
+        export CCACHE_DIR="${EPREFIX}"/var/cache/ccache/${CATEGORY}/${PN}
+        mkdir -p "${CCACHE_DIR}" || die "Failed to create ccache directory"
+        # Copy ccache.conf if it is found in "old" CCACHE_DIR
+        if [ -f "${EPREFIX}"/var/cache/ccache/ccache.conf ]
+        then
+            cp "${EPREFIX}"/var/cache/ccache/ccache.conf /var/cache/ccache/${CATEGORY}/${PN}/ccache.conf || die "Failed to copy ccache config"
+        fi
     fi
 fi
