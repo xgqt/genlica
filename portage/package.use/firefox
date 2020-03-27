@@ -1,4 +1,6 @@
 # Firefox
 www-client/firefox bindist
+www-client/firefox custom-optimization
+www-client/firefox custom-cflags
 media-libs/libvpx postproc
 dev-db/sqlite secure-delete
