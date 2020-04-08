@@ -1,1 +1,1 @@
-media-video/ffmpeg libv4l libdrm cpudetection fontconfig vpx webp
+media-video/ffmpeg cpudetection fontconfig libdrm libv4l openssl vpx webp
