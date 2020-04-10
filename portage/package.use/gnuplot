@@ -1,2 +1,2 @@
 # Gnuplot
-sci-visualization/gnuplot bitmap latex -qt5
+sci-visualization/gnuplot bitmap latex -qt5 -wxwidgets
