@@ -1,2 +1,4 @@
 # Nmap - network discovery and security auditing
-net-analyzer/nmap ncat ndiff nping
+# Ndiff requires python2, now... (Pentoo has a port to python3)
+net-analyzer/nmap ncat nping -ndiff
+net-analyzer/nmap PYTHON_SINGLE_TARGET: -python2_7
