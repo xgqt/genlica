@@ -1,0 +1,9 @@
+# X11 components
+# also WMs
+x11-wm/awesome
+x11-themes/*
+x11-terms/*
+x11-misc/*
+xfce-base/*
+xfce-extra/*
+=media-libs/mesa-20.0.4

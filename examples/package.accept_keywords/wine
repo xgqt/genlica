@@ -1,0 +1,10 @@
+# Wine Is Not an Emulator
+app-emulation/wine-desktop-common
+app-emulation/wine-gecko
+app-emulation/wine-mono
+app-emulation/wine-staging
+app-emulation/wine-vanilla
+app-emulation/winetricks
+
+# Dependencies
+app-emulation/faudio

@@ -1,0 +1,10 @@
+# System utils
+app-misc/dfshow
+app-misc/nnn
+app-portage/eix
+app-shells/zsh
+dev-util/sysdig
+dev-libs/libb64
+dev-vcs/git
+net-libs/grpc
+sys-fs/ncdu

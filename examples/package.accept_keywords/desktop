@@ -1,0 +1,14 @@
+# Desktop utils
+# that require X11
+app-arch/file-roller
+app-editors/emacs
+app-editors/qhexedit2
+dev-db/sqlitebrowser
+dev-python/pafy **
+gnome-extra/gnome-calculator
+media-sound/mps-youtube **
+media-video/celluloid
+net-im/*
+net-misc/nextcloud-client
+net-misc/youtube-dl **
+sys-apps/bleachbit
