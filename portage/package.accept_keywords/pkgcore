@@ -1,0 +1,4 @@
+# Pkgcore
+dev-util/pkgcheck
+sys-apps/pkgcore
+dev-python/snakeoil
