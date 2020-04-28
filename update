@@ -9,11 +9,16 @@ export PATH
 
 
 main() {
-
+	# First reset any changes
 	git reset --hard
+
+	# Then safely remove links
+	stow -D -v portage -t "${EPREFIX}/etc/portage"
+
+	# Pull
 	git pull
 
-	stow -D -v portage -t "${EPREFIX}/etc/portage"
+	# After taht link again
 	stow -v portage -t "${EPREFIX}/etc/portage"
 }
 
