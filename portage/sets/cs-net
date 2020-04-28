@@ -18,6 +18,7 @@ net-analyzer/tcptraceroute
 net-analyzer/traceroute
 net-dns/bind-tools
 net-misc/bridge-utils
+net-misc/iperf
 net-misc/iputils
 net-misc/netkit-telnetd
 net-misc/whois
