@@ -1,5 +1,7 @@
 # Kernel-based Virtual Machine
-app-emulation/qemu QEMU_SOFTMMU_TARGETS: aarch64 arm x86_64
-app-emulation/qemu QEMU_USER_TARGETS: aarch64 arm x86_64
-app-emulation/qemu usbredir ssh spice
-net-misc/spice-gtk usbredir
+app-emulation/libvirt	macvtap qemu vepa virt-network
+app-emulation/qemu	QEMU_SOFTMMU_TARGETS: aarch64 arm x86_64
+app-emulation/qemu	QEMU_USER_TARGETS: aarch64 arm x86_64
+app-emulation/qemu	usbredir ssh spice
+net-dns/dnsmasq		script
+net-misc/spice-gtk	usbredir
