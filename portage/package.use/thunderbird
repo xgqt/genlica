@@ -1,0 +1,2 @@
+# Thunderbird Mail Client
+mail-client/thunderbird bindist custom-cflags custom-optimization
