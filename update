@@ -9,23 +9,23 @@ export PATH
 
 
 main() {
-	# First reset any changes
-	git reset --hard
+    # First reset any changes
+    git reset --hard
 
-	# Then safely remove links
-	stow -D -v portage -t "${EPREFIX}/etc/portage"
+    # Then safely remove links
+    stow -D -v portage -t "${EPREFIX}/etc/portage"
 
-	# Pull
-	git pull
+    # Pull
+    git pull
 
-	# After taht link again
-	stow -v portage -t "${EPREFIX}/etc/portage"
+    # After taht link again
+    stow -v portage -t "${EPREFIX}/etc/portage"
 }
 
 
 if [ "$(whoami)" != root ] && [ -z "${EPREFIX}" ]
 then
-	sudo "$0"
+    sudo "$0"
 else
-	main
+    main
 fi
