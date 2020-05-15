@@ -2,6 +2,7 @@
 app-crypt/gpgme			-qt5
 app-crypt/pinentry		-qt5
 app-doc/doxygen			-qt5
+app-text/highlight		-qt5
 dev-util/cmake			-qt5
 media-libs/openal		-qt5
 media-libs/opencv		-qt5
