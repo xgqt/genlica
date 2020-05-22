@@ -1,6 +1,6 @@
 # Mainly MS Office compatybility
-app-emulation/wine-vanilla samba
-net-fs/samba addc json python winbind
-sys-libs/ldb python
-sys-libs/tdb python
-sys-libs/tevent python
+app-emulation/wine-vanilla	samba
+net-fs/samba			addc json python winbind
+sys-libs/ldb			python
+sys-libs/tdb			python
+sys-libs/tevent			python

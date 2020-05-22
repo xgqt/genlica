@@ -1,6 +1,6 @@
 # KDE
-app-arch/p7zip kde
-dev-python/PyQt5 webchannel
-kde-frameworks/kwallet -gpg
-media-libs/mesa wayland
-media-libs/phonon -vlc
+app-arch/p7zip		kde
+dev-python/PyQt5	webchannel
+kde-frameworks/kwallet	-gpg
+media-libs/mesa		wayland
+media-libs/phonon	-vlc

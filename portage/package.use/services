@@ -2,10 +2,11 @@
 #www-apps/nextcloud sqlite
 
 # PHP
-*/* PHP_TARGETS: -php7-2 -php7-3 php7-4
-dev-lang/php apache2 cgi cjk ftp fpm truetype curl zip gd pcntl pdo sqlite intl xmlreader xmlwriter xpm threads
-app-eselect/eselect-php apache2 fpm
-media-gfx/imagemagick -openmp
+*/*			PHP_TARGETS: -php7-2 -php7-3 php7-4
+dev-lang/php		apache2 cgi cjk ftp fpm truetype curl zip gd pcntl
+dev-lang/php		pdo sqlite intl xmlreader xmlwriter xpm threads
+app-eselect/eselect-php	apache2 fpm
+media-gfx/imagemagick	-openmp
 
 # Apache
-www-servers/apache threads apache2_mpms_worker
+www-servers/apache	threads apache2_mpms_worker
