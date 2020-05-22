@@ -11,6 +11,7 @@
 #
 app-admin/eclean-kernel
 sys-apps/lshw
+sys-apps/pciutils
 sys-apps/smartmontools
 sys-apps/usbutils
-sys-apps/pciutils
+sys-fs/sysfsutils
