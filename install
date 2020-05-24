@@ -2,6 +2,7 @@
 
 
 main() {
+    cd "$(dirname "${0}")" || exit 1
 
     # Back up the old portage directory
     if [ -d "${EPREFIX}/etc/portage" ] && [ ! -d "${EPREFIX}/etc/portage.bak" ]
@@ -83,7 +84,7 @@ EOF
 
 if [ "$(whoami)" != root ] && [ -z "${EPREFIX}" ]
 then
-    sudo "$0"
+    sudo "${0}"
 else
     main
 fi

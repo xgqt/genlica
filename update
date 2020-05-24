@@ -9,6 +9,8 @@ export PATH
 
 
 main() {
+    cd "$(dirname "${0}")" || exit 1
+
     # First reset any changes
     git reset --hard
 
@@ -25,7 +27,7 @@ main() {
 
 if [ "$(whoami)" != root ] && [ -z "${EPREFIX}" ]
 then
-    sudo "$0"
+    sudo "${0}"
 else
     main
 fi
