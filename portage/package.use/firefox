@@ -2,5 +2,16 @@
 www-client/firefox	bindist
 www-client/firefox	custom-optimization
 www-client/firefox	custom-cflags
+www-client/firefox	hardened
+www-client/firefox	system-av1 system-harfbuzz system-icu
+www-client/firefox	system-jpeg system-libevent system-libvpx
+
+# Broken? +system-webp
+# Causes image bugs on Youtube and some other websites
+www-client/firefox	-system-webp
+
+# SQLite + Dependencies
+# Maybe drop this?
+www-client/firefox	system-sqlite
 media-libs/libvpx	postproc
 dev-db/sqlite		secure-delete
