@@ -1,0 +1,3 @@
+# Rust language
+dev-lang/rust	clippy rls rustfmt wasm
+dev-lang/rust	LLVM_TARGETS: WebAssembly
