@@ -1,0 +1,17 @@
+# Shared deps
+media-libs/plotutils		X png
+media-gfx/pstoedit		imagemagick plotutils
+#x11-libs/wxGTK			X
+
+# Gnuplot
+sci-visualization/gnuplot	X bitmap latex
+sci-visualization/gnuplot	qt5
+sci-visualization/gnuplot	-wxwidgets
+
+# Octave
+sci-mathematics/octave		X curl fftw
+sci-mathematics/octave		gnuplot gui postscript
+sci-mathematics/octave		readline
+
+# Maxima
+sci-mathematics/maxima		X sbcl tk
