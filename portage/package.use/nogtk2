@@ -11,7 +11,7 @@ sys-apps/lshw		-gtk
 
 
 # USE="-gtk" breaks those pkgs:
-# (or you fet no GUI)
+# (or you get no GUI)
 
 # x11-drivers/nvidia-drivers -gtk
 # net-irc/hexchat	-gtk
