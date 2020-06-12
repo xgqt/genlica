@@ -3,10 +3,20 @@
 
 # PHP
 */*			PHP_TARGETS: -php7-2 -php7-3 php7-4
-dev-lang/php		apache2 cgi cjk ftp fpm truetype curl zip gd pcntl
-dev-lang/php		pdo sqlite intl xmlreader xmlwriter xpm threads
+dev-lang/php		acl apache2
+dev-lang/php		bcmath
+dev-lang/php		cgi cjk curl
+dev-lang/php		ftp fpm
+dev-lang/php		gd gmp
+dev-lang/php		intl
+dev-lang/php		pcntl pdo
+dev-lang/php		sqlite
+dev-lang/php		threads truetype
+dev-lang/php		xmlreader xmlwriter xpm
+dev-lang/php		zip
 app-eselect/eselect-php	apache2 fpm
 media-gfx/imagemagick	-openmp
 
 # Apache
-www-servers/apache	threads apache2_mpms_worker
+www-servers/apache	APACHE2_MPMS: worker
+www-servers/apache	threads
