@@ -1,1 +1,9 @@
-media-video/ffmpeg cpudetection fontconfig libdrm libv4l openssl opus vpx webp
+media-video/ffmpeg	cdio chromium cpudetection
+media-video/ffmpeg	fontconfig libaom libass
+media-video/ffmpeg	libdrm libv4l mp3
+media-video/ffmpeg	network ogg openssl
+media-video/ffmpeg	opus rtmp rubberband
+media-video/ffmpeg	sdl theora truetype
+media-video/ffmpeg	v4l vorbis vpx
+media-video/ffmpeg	webp x264 x265
+media-video/ffmpeg	xcb xvid
