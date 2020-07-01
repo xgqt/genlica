@@ -1,0 +1,6 @@
+# Add support for GNU Emacs
+
+*/*			emacs
+
+# Excludes
+dev-vcs/git		-emacs
