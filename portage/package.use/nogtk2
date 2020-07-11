@@ -4,7 +4,6 @@ app-crypt/pinentry	-gtk
 dev-java/icedtea-bin	-gtk
 dev-libs/libdbusmenu	-gtk
 media-libs/libcanberra	-gtk
-media-libs/opencv	-gtk -opengl
 net-analyzer/mtr	-gtk
 net-dialup/ppp		-gtk
 sys-apps/lshw		-gtk
