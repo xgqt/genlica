@@ -1,4 +1,0 @@
-# Advanced interactive shell for Python
-dev-python/ipython	matplotlib smp -nbconvert -notebook -qt5
-dev-python/matplotlib	-wxwidgets -qt5
-net-libs/zeromq		drafts
