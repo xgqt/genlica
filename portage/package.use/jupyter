@@ -11,3 +11,6 @@ dev-python/matplotlib	-wxwidgets
 
 # Universal messaging library a.k.a. brokerless kernel
 net-libs/zeromq		drafts
+
+# Required by qt dependencies
+dev-qt/qtmultimedia	widgets
