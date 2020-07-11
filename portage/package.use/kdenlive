@@ -1,4 +1,6 @@
 # KDE video editing suite
 media-libs/mlt		kdenlive
-media-libs/mlt		ffmpeg fftw frei0r melt qt5 python
+media-libs/mlt		ffmpeg fftw frei0r
+media-libs/mlt		melt qt5 python
+media-libs/mlt		sdl xml
 media-libs/mlt		-gtk
