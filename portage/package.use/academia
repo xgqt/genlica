@@ -12,6 +12,7 @@ sci-visualization/gnuplot	-wxwidgets
 sci-mathematics/octave		X curl fftw
 sci-mathematics/octave		gnuplot gui postscript
 sci-mathematics/octave		readline
+sci-mathematics/octave		-opengl
 
 # Maxima
 sci-mathematics/maxima		X sbcl tk
