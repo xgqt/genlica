@@ -1,0 +1,3 @@
+# Controlling IPMI
+sys-apps/ipmitool	openipmi
+sys-libs/openipmi	crypt python
