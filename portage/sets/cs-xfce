@@ -13,6 +13,8 @@ app-crypt/seahorse
 dev-util/catfish
 gnome-base/gnome-keyring
 gnome-extra/nm-applet
+media-sound/paprefs
+media-sound/pavucontrol
 xfce-base/xfce4-meta
 xfce-extra/xfce4-clipman-plugin
 xfce-extra/xfce4-notifyd
