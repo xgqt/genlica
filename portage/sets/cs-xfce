@@ -17,7 +17,9 @@ media-sound/paprefs
 media-sound/pavucontrol
 xfce-base/xfce4-meta
 xfce-extra/xfce4-clipman-plugin
+xfce-extra/xfce4-cpugraph-plugin
 xfce-extra/xfce4-notifyd
 xfce-extra/xfce4-pulseaudio-plugin
 xfce-extra/xfce4-screenshooter
 xfce-extra/xfce4-whiskermenu-plugin
+xfce-extra/xfce4-xkb-plugin
