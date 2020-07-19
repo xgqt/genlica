@@ -1,17 +1,21 @@
 # Python
-dev-lang/python sqlite
+dev-lang/python			sqlite
 
 # Exclude python2.7 from python_targets
-*/* PYTHON_TARGETS: -python2_7
+*/*				PYTHON_TARGETS: -python2_7
 
 # Those pkgs need python2:
-app-emulation/virtualbox	python_targets_python2_7
-dev-python/bz2file		python_targets_python2_7
-dev-python/certifi		python_targets_python2_7
-dev-python/m2crypto		python_targets_python2_7
-dev-python/pyblake2		python_targets_python2_7
-dev-python/pyxattr		python_targets_python2_7
-dev-python/scandir		python_targets_python2_7
-dev-python/setuptools		python_targets_python2_7
-dev-python/typing		python_targets_python2_7
-virtual/python-typing		python_targets_python2_7
+app-emulation/virtualbox	PYTHON_TARGETS: python2_7
+dev-python/bz2file		PYTHON_TARGETS: python2_7
+dev-python/certifi		PYTHON_TARGETS: python2_7
+dev-python/m2crypto		PYTHON_TARGETS: python2_7
+dev-python/pyblake2		PYTHON_TARGETS: python2_7
+dev-python/pyxattr		PYTHON_TARGETS: python2_7
+dev-python/scandir		PYTHON_TARGETS: python2_7
+dev-python/setuptools		PYTHON_TARGETS: python2_7
+dev-python/typing		PYTHON_TARGETS: python2_7
+virtual/python-typing		PYTHON_TARGETS: python2_7
+
+# Just Python pkgs
+dev-python/PyQt5		declarative designer
+dev-python/PyQt5		-webkit
