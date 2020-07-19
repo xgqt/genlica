@@ -1,10 +1,11 @@
 # Window Manager Components
 
 # tint2
-x11-misc/tint2 startup-notification tint2conf
-
-# XFCE4 Power Manager
-xfce-extra/xfce4-power-manager -networkmanager -panel-plugin
+x11-misc/tint2				startup-notification tint2conf
 
 # Rofi
-x11-misc/rofi windowmode
+x11-misc/rofi				windowmode
+
+# XFCE 4
+xfce-extra/xfce4-power-manager		-networkmanager -panel-plugin
+xfce-extra/xfce4-pulseaudio-plugin	keybinder
