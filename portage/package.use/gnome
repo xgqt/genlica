@@ -1,0 +1,24 @@
+# GNOME Desktop Components
+
+# Needed
+app-crypt/pinentry		gnome-keyring
+media-libs/gst-plugins-base	theora
+media-libs/libmediaart		-qt5
+media-libs/libmediaart		gtk introspection
+
+# Extras
+app-misc/tracker		-miners
+app-text/evince			-spell
+app-text/evince			gstreamer
+dev-util/glade			-webkit
+dev-util/glade			python
+media-gfx/gthumb		-cdr
+net-misc/vinagre		-telepathy
+net-misc/vinagre		ssh spice
+
+# Disable dependencies that pull in WebkitGTK
+gnome-base/nautilus		-gnome -previewer
+
+# Ensure good FS compatibility
+gnome-base/gvfs			-samba
+gnome-base/gvfs			archive fuse
