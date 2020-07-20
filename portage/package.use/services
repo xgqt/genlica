@@ -12,8 +12,8 @@ dev-lang/php		gd gmp
 dev-lang/php		intl
 dev-lang/php		ldap
 dev-lang/php		pcntl pdo
+dev-lang/php		spell
 dev-lang/php		sqlite
-dev-lang/php		ssl
 dev-lang/php		threads truetype
 dev-lang/php		xmlreader xmlwriter xpm
 dev-lang/php		zip
