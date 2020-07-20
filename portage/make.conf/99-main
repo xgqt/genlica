@@ -53,9 +53,9 @@ LDCFLAGS="-O4 -release"
 USE="
 	${USE}
 	elogind -consolekit -systemd
-	multilib pie threads -bindist -gpm
-	bluetooth initramfs firmware lm-sensors usb v4l wifi xinerama
-	X -wayland
+	pie threads -bindist -gpm
+	initramfs firmware lm-sensors usb v4l wifi
+	xinerama -wayland
 	branding gtk3 xft -gtk2 -gnome -qt4 -tk
 	alsa git gpg mtp networkmanager pulseaudio sound
 	-gnome-online-accounts -nautilus -perl -samba -tracker
