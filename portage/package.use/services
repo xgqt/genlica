@@ -6,11 +6,14 @@
 dev-lang/php		acl apache2
 dev-lang/php		bcmath
 dev-lang/php		cgi cjk curl
+dev-lang/php		exif
 dev-lang/php		ftp fpm
 dev-lang/php		gd gmp
 dev-lang/php		intl
+dev-lang/php		ldap
 dev-lang/php		pcntl pdo
 dev-lang/php		sqlite
+dev-lang/php		ssl
 dev-lang/php		threads truetype
 dev-lang/php		xmlreader xmlwriter xpm
 dev-lang/php		zip
@@ -19,4 +22,7 @@ media-gfx/imagemagick	-openmp
 
 # Apache
 www-servers/apache	APACHE2_MPMS: worker
-www-servers/apache	threads
+www-servers/apache	ldap threads
+
+# Dependencies
+dev-libs/apr-util	ldap
