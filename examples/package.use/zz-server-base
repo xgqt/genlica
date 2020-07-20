@@ -1,0 +1,2 @@
+# For server without gui
+app-crypt/pinentry	-fltk -gnome-keyring -gtk -qt5
