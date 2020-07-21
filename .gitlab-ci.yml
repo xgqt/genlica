@@ -11,13 +11,13 @@ before_script:
 test:
   stage: test
   script:
-    - emerge dev-util/shellcheck-bin
+    - emerge -q dev-util/shellcheck-bin
     - bash test.sh
 
 install:
   stage: install
   script:
-    - emerge app-portage/cpuid2cpuflags
-    - emerge app-admin/stow
+    - emerge -q app-portage/cpuid2cpuflags
+    - emerge -q app-admin/stow
     - bash install
-    - emerge bash
+    - emerge -q bash
