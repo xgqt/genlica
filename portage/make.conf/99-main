@@ -52,7 +52,7 @@ LDCFLAGS="-O4 -release"
 
 USE="
 	${USE}
-	elogind -consolekit -systemd
+	dbus elogind -consolekit -systemd
 	pie threads -bindist -gpm
 	initramfs firmware lm-sensors usb v4l wifi
 	xinerama -wayland
