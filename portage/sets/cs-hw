@@ -10,6 +10,7 @@
 #	emerge --deselect @cs-hw
 #
 app-admin/eclean-kernel
+app-portage/cpuid2cpuflags
 sys-apps/lshw
 sys-apps/pciutils
 sys-apps/smartmontools
