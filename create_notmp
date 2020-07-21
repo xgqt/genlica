@@ -28,7 +28,7 @@ main() {
 
 if [ "$(whoami)" != root ]
 then
-	sudo $0
+	sudo "${0}"
 else
 	main
 fi

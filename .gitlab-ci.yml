@@ -1,0 +1,20 @@
+image: gentoo/stage3-amd64:latest
+
+stages:
+  - test
+  - install
+
+before_script:
+  - emerge-webrsync
+  - emerge -v dev-util/shellcheck-bin
+
+test:
+  stage: test
+  script:
+    - bash test.sh
+
+install:
+  stage: install
+  script:
+    - emerge -v app-portage/cpuid2cpuflags
+    - bash install
