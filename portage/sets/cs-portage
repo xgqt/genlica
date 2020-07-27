@@ -14,5 +14,7 @@ app-eselect/eselect-repository
 app-portage/eix
 app-portage/gentoolkit
 app-portage/portage-utils
+app-portage/repoman
 app-portage/smart-live-rebuild
+dev-util/pkgcheck
 dev-vcs/git
