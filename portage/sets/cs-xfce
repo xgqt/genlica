@@ -15,6 +15,8 @@ gnome-base/gnome-keyring
 gnome-extra/nm-applet
 media-sound/paprefs
 media-sound/pavucontrol
+x11-apps/mesa-progs
+x11-apps/xrandr
 xfce-base/xfce4-meta
 xfce-extra/xfce4-clipman-plugin
 xfce-extra/xfce4-cpugraph-plugin
