@@ -20,6 +20,7 @@ x11-apps/xrandr
 xfce-base/xfce4-meta
 xfce-extra/xfce4-clipman-plugin
 xfce-extra/xfce4-cpugraph-plugin
+xfce-extra/xfce4-netload-plugin
 xfce-extra/xfce4-notifyd
 xfce-extra/xfce4-pulseaudio-plugin
 xfce-extra/xfce4-taskmanager
