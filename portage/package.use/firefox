@@ -1,16 +1,10 @@
 # Firefox
 www-client/firefox	bindist
-www-client/firefox	custom-optimization
-www-client/firefox	custom-cflags
-www-client/firefox	hardened
-www-client/firefox	hwaccel
+www-client/firefox	custom-optimization custom-cflags
+www-client/firefox	hardened hwaccel
 www-client/firefox	system-av1 system-harfbuzz system-icu
-www-client/firefox	system-jpeg system-libevent
-
-# Broken webm support?
-# Causes image bugs on Youtube and some other websites
-www-client/firefox	-system-webp
-www-client/firefox	-system-libvpx
+www-client/firefox	system-jpeg system-libevent system-libvpx
+www-client/firefox	system-webp
 
 # SQLite + Dependencies
 # Maybe drop this?
