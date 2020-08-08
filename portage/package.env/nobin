@@ -2,6 +2,7 @@
 
 acct-group/*				nobin
 acct-user/*				nobin
+java-virtuals/*				nobin
 virtual/*				nobin
 
 
