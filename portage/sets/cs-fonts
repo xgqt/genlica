@@ -1,0 +1,20 @@
+# Custom Set: Fonts
+#
+# To install:
+#       emerge -anv @cs-fonts
+#
+# The set will be added to:
+#       /var/lib/portage/world_sets
+#
+# To remove:
+#       emerge --deselect @cs-fonts
+#
+media-fonts/cantarell
+media-fonts/droid
+media-fonts/fontawesome
+media-fonts/hack
+media-fonts/jetbrains-mono
+media-fonts/noto-cjk
+media-fonts/noto-emoji
+media-fonts/powerline-symbols
+media-fonts/roboto
