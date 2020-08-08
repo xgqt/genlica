@@ -4,7 +4,6 @@
 # Update genlica
 
 
-set -e
 export PATH
 
 
