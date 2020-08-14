@@ -1,0 +1,3 @@
+# Use custom JDKs
+*/*	-bundled-jdk
+*/*	custom-jdk
