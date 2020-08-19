@@ -11,7 +11,7 @@ then
         # Copy ccache.conf if it is found in "old" CCACHE_DIR
         if [ -f "${EPREFIX}"/var/cache/ccache/ccache.conf ]
         then
-            cp "${EPREFIX}"/var/cache/ccache/ccache.conf /var/cache/ccache/${CATEGORY}/${PN}/ccache.conf || die "Failed to copy ccache config"
+            cp "${EPREFIX}"/var/cache/ccache/ccache.conf /var/cache/ccache/"${CATEGORY}"/"${PN}"/ccache.conf || die "Failed to copy ccache config"
         fi
     fi
 fi

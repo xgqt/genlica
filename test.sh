@@ -2,7 +2,7 @@
 
 
 exit_result=0
-files="$(grep '#!/bin/sh' ./* 2>/dev/null | cut -d ':' -f 1)"
+files="$(grep -R --exclude-dir='.git' '^#!/.*sh$' 2>/dev/null | cut -d ':' -f 1)"
 
 
 for i in ${files}
