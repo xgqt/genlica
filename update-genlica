@@ -1,0 +1,57 @@
+#!/usr/bin/env bash
+
+
+main() {
+    if command -v emerge >/dev/null 2>&1
+    then
+        emerge -v -1 --autounmask --jobs=1 \
+               --usepkg-exclude \* --quiet-build=n genlica
+    fi
+    if [ -x "${EPREFIX}/opt/genlica/update" ]
+    then
+        bash "${EPREFIX}/opt/genlica/update"
+    fi
+}
+
+
+if [ -n "${1}" ]
+then
+    case "${1}" in
+        -v | --version )
+            cat << EOF
+Genlica - Gentoo replica
+
+Copyright (c) 2020, XGQT
+Licensed under the ISC License
+
+EOF
+            distfile_dir="${EPREFIX}/var/cache/distfiles/git3-src/xgqt_genlica.git"
+            if [ -d "${distfile_dir}" ]
+            then
+                cd "${distfile_dir}" || exit 1
+                echo "Last changes:"
+                GIT_PAGER='cat' git show
+            fi
+            ;;
+        * )
+            cat << EOF
+Usage: update-genlica [OPTION]
+update-genlica - script to update genlica
+
+Options:
+    -v  --version   show genlica version (commit)
+    -h  --help      show this help information
+
+Copyright (c) 2020, XGQT
+Licensed under the ISC License
+EOF
+            ;;
+    esac
+else
+    if [ "$(whoami)" != root ] && [ -z "${EPREFIX}" ]
+    then
+        sudo "${0}"
+    else
+        main
+    fi
+fi
