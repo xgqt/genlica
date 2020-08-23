@@ -1,8 +1,9 @@
 # MPD Setup
 
 # Main
-media-sound/mpd alsa fifo
+media-sound/mpd                         alsa fifo
 
 # Termianl Players
-media-sound/ncmpcpp clock taglib visualizer
-media-sound/ncmpc key-screen lyrics-screen outputs-screen search-screen
+media-sound/ncmpcpp                     clock taglib visualizer
+media-sound/ncmpc                       key-screen lyrics-screen outputs-screen
+media-sound/ncmpc                       search-screen

@@ -1,8 +1,7 @@
 # Thunderbird Mail Client
-mail-client/thunderbird	bindist
-mail-client/thunderbird	custom-cflags
-mail-client/thunderbird	custom-optimization
-mail-client/thunderbird	hardened
-mail-client/thunderbird	system-av1 system-harfbuzz system-icu
-mail-client/thunderbird	system-jpeg system-libevent system-libvpx
-mail-client/thunderbird	system-webp system-sqlite
+mail-client/thunderbird                 bindist
+mail-client/thunderbird                 custom-cflags custom-optimization
+mail-client/thunderbird                 hardened
+mail-client/thunderbird                 system-av1 system-harfbuzz system-icu
+mail-client/thunderbird                 system-jpeg system-libevent system-libvpx
+mail-client/thunderbird                 system-webp system-sqlite

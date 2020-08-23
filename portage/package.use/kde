@@ -1,5 +1,5 @@
 # KDE
-dev-python/PyQt5	webchannel
-kde-frameworks/kwallet	-gpg
-media-libs/mesa		wayland
-media-libs/phonon	-vlc
+dev-python/PyQt5                        webchannel
+kde-frameworks/kwallet                  -gpg
+media-libs/mesa                         wayland
+media-libs/phonon                       -vlc

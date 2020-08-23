@@ -1,3 +1,4 @@
 # GNU Emacs
-app-editors/emacs		alsa sound dynamic-loading imagemagick games libxml2
-app-emacs/emacs-common-gentoo	games
+app-editors/emacs                       alsa sound dynamic-loading
+app-editors/emacs                       imagemagick games libxml2
+app-emacs/emacs-common-gentoo           games

@@ -2,7 +2,9 @@
 
 # Gparted
 # fat => sys-fs/dosfstools
-sys-block/gparted fat btrfs cryptsetup dmraid f2fs jfs mdadm ntfs xfs
+sys-block/gparted                       fat btrfs cryptsetup
+sys-block/gparted                       dmraid f2fs jfs
+sys-block/gparted                       mdadm ntfs xfs
 
 # GNOME Disks
-sys-apps/gnome-disk-utility fat
+sys-apps/gnome-disk-utility             fat

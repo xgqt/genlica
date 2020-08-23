@@ -1,28 +1,28 @@
 # Nextcloud
-#www-apps/nextcloud sqlite
+#www-apps/nextcloud                     sqlite
 
 # PHP
-*/*			PHP_TARGETS: -php7-2 -php7-3 php7-4
-dev-lang/php		acl apache2
-dev-lang/php		bcmath
-dev-lang/php		cgi cjk curl
-dev-lang/php		exif
-dev-lang/php		ftp fpm
-dev-lang/php		gd gmp
-dev-lang/php		intl
-dev-lang/php		ldap
-dev-lang/php		pcntl pdo
-dev-lang/php		spell
-dev-lang/php		sqlite
-dev-lang/php		threads truetype
-dev-lang/php		xmlreader xmlwriter xpm
-dev-lang/php		zip
-app-eselect/eselect-php	apache2 fpm
-media-gfx/imagemagick	-openmp
+*/*                                     PHP_TARGETS: -php7-2 -php7-3 php7-4
+dev-lang/php                            acl apache2
+dev-lang/php                            bcmath
+dev-lang/php                            cgi cjk curl
+dev-lang/php                            exif
+dev-lang/php                            ftp fpm
+dev-lang/php                            gd gmp
+dev-lang/php                            intl
+dev-lang/php                            ldap
+dev-lang/php                            pcntl pdo
+dev-lang/php                            spell
+dev-lang/php                            sqlite
+dev-lang/php                            threads truetype
+dev-lang/php                            xmlreader xmlwriter xpm
+dev-lang/php                            zip
+app-eselect/eselect-php                 apache2 fpm
+media-gfx/imagemagick                   -openmp
 
 # Apache
-www-servers/apache	APACHE2_MPMS: worker
-www-servers/apache	ldap threads
+www-servers/apache                      APACHE2_MPMS: worker
+www-servers/apache                      ldap threads
 
 # Dependencies
-dev-libs/apr-util	ldap
+dev-libs/apr-util                       ldap

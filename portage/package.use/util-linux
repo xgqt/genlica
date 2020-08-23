@@ -1,2 +1,2 @@
 # Linux Utilities
-sys-apps/util-linux static-libs
+sys-apps/util-linux                     static-libs

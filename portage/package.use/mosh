@@ -1,1 +1,3 @@
-net-misc/mosh client examples mosh-hardening server ufw
+# Mobile Shell
+net-misc/mosh                           client examples mosh-hardening
+net-misc/mosh                           server ufw

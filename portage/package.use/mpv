@@ -1,2 +1,3 @@
 # MPV media player
-media-video/mpv archive bluray drm libmpv tools
+media-video/mpv                         archive bluray drm
+media-video/mpv                         libmpv tools

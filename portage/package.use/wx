@@ -1,2 +1,2 @@
 # wxWidgets - cross-platform C++ GUI toolkit
-x11-libs/wxGTK	gstreamer
+x11-libs/wxGTK                          gstreamer

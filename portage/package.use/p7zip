@@ -1,4 +1,4 @@
 # Pulled my i.e. winetricks
 # Remove wxwidgets because it uses a outdated version
 # yes, even the unstable version
-app-arch/p7zip  -kde -wxwidgets
+app-arch/p7zip                          -kde -wxwidgets

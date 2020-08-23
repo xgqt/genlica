@@ -1,13 +1,13 @@
 # Firefox
-www-client/firefox	bindist
-www-client/firefox	custom-optimization custom-cflags
-www-client/firefox	hardened hwaccel
-www-client/firefox	system-av1 system-harfbuzz system-icu
-www-client/firefox	system-jpeg system-libevent system-libvpx
-www-client/firefox	system-webp
+www-client/firefox                      bindist
+www-client/firefox                      custom-optimization custom-cflags
+www-client/firefox                      hardened hwaccel
+www-client/firefox                      system-av1 system-harfbuzz system-icu
+www-client/firefox                      system-jpeg system-libevent system-libvpx
+www-client/firefox                      system-webp
 
 # SQLite + Dependencies
 # Maybe drop this?
-www-client/firefox	system-sqlite
-media-libs/libvpx	postproc
-dev-db/sqlite		secure-delete
+www-client/firefox                      system-sqlite
+media-libs/libvpx                       postproc
+dev-db/sqlite                           secure-delete

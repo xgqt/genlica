@@ -1,4 +1,4 @@
 # LibreOffice
-dev-db/postgresql	kerberos
-app-office/libreoffice	pdfimport postgres
-app-office/libreoffice	-mariadb
+dev-db/postgresql                       kerberos
+app-office/libreoffice                  pdfimport postgres
+app-office/libreoffice                  -mariadb

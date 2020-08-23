@@ -1,2 +1,3 @@
 # LXQT
-lxqt-base/lxqt-meta powermanagement terminal -about -trash
+lxqt-base/lxqt-meta                     powermanagement terminal
+lxqt-base/lxqt-meta                     -about -trash

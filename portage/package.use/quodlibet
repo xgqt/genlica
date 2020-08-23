@@ -1,1 +1,2 @@
-media-sound/quodlibet gstreamer
+# Quodlibet (and Exfalso) - audio library tagger, manager, and player
+media-sound/quodlibet                   gstreamer

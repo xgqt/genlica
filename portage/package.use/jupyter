@@ -1,16 +1,16 @@
 # Jupyter
 
 # Advanced interactive shell for Python
-dev-python/ipython	matplotlib notebook qt5
-dev-python/ipython	smp
-dev-python/ipython	-nbconvert
+dev-python/ipython                      matplotlib notebook qt5
+dev-python/ipython                      smp
+dev-python/ipython                      -nbconvert
 
 # Python plotting library
-dev-python/matplotlib	qt5
-dev-python/matplotlib	-wxwidgets
+dev-python/matplotlib                   qt5
+dev-python/matplotlib                   -wxwidgets
 
 # Universal messaging library a.k.a. brokerless kernel
-net-libs/zeromq		drafts
+net-libs/zeromq                         drafts
 
 # Required by qt dependencies
-dev-qt/qtmultimedia	widgets
+dev-qt/qtmultimedia                     widgets

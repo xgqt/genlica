@@ -1,16 +1,16 @@
 # Those USE flags pull in GTK2
 
-app-crypt/pinentry	-gtk
-dev-java/icedtea-bin	-gtk
-dev-libs/libdbusmenu	-gtk
-media-libs/libcanberra	-gtk
-net-analyzer/mtr	-gtk
-net-dialup/ppp		-gtk
-sys-apps/lshw		-gtk
+app-crypt/pinentry                      -gtk
+dev-java/icedtea-bin                    -gtk
+dev-libs/libdbusmenu                    -gtk
+media-libs/libcanberra                  -gtk
+net-analyzer/mtr                        -gtk
+net-dialup/ppp                          -gtk
+sys-apps/lshw                           -gtk
 
 
 # USE="-gtk" breaks those pkgs:
 # (or you get no GUI)
 
-# x11-drivers/nvidia-drivers -gtk
-# net-irc/hexchat	-gtk
+# x11-drivers/nvidia-drivers            -gtk
+# net-irc/hexchat                       -gtk

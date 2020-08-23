@@ -1,2 +1,2 @@
 # The OpenRC init system
-sys-apps/openrc		sysv-utils
+sys-apps/openrc                         sysv-utils

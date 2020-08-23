@@ -1,1 +1,2 @@
-x11-base/xorg-server	-suid
+# X.org servewr
+x11-base/xorg-server                    -suid
