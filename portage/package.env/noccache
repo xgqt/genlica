@@ -1,2 +1,2 @@
 # Doesn't work with ccache
-dev-java/openjdk	noccache
+dev-java/openjdk                        noccache

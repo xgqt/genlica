@@ -1,48 +1,48 @@
 # Group/User/Virtual
 
-acct-group/*				nobin
-acct-user/*				nobin
-java-virtuals/*				nobin
-virtual/*				nobin
+acct-group/*                            nobin
+acct-user/*                             nobin
+java-virtuals/*                         nobin
+virtual/*                               nobin
 
 
 # Is binary
 
-*/*-bin					nobin
-sys-kernel/*sources			nobin
+*/*-bin                                 nobin
+sys-kernel/*sources                     nobin
 
 
 # Limited by bindist
 
-app-crypt/xca				nobin
-dev-db/mariadb				nobin
-dev-db/mysql-cluster			nobin
-dev-libs/botan				nobin
-dev-libs/gf2x				nobin
-dev-libs/libp11				nobin
-dev-libs/ntl				nobin
-dev-libs/openssl			nobin
-dev-libs/openssl-compat			nobin
-dev-libs/pkcs11-helper			nobin
-dev-libs/softhsm			nobin
-dev-qt/qtnetwork			nobin
-dev-qt/qtwebengine			nobin
-media-libs/freetype			nobin
-net-libs/liboauth			nobin
-net-misc/openssh			nobin
-net-misc/socat				nobin
-net-wireless/wpa_supplicant		nobin
-sys-apps/ucspi-ssl			nobin
+app-crypt/xca                           nobin
+dev-db/mariadb                          nobin
+dev-db/mysql-cluster                    nobin
+dev-libs/botan                          nobin
+dev-libs/gf2x                           nobin
+dev-libs/libp11                         nobin
+dev-libs/ntl                            nobin
+dev-libs/openssl                        nobin
+dev-libs/openssl-compat                 nobin
+dev-libs/pkcs11-helper                  nobin
+dev-libs/softhsm                        nobin
+dev-qt/qtnetwork                        nobin
+dev-qt/qtwebengine                      nobin
+media-libs/freetype                     nobin
+net-libs/liboauth                       nobin
+net-misc/openssh                        nobin
+net-misc/socat                          nobin
+net-wireless/wpa_supplicant             nobin
+sys-apps/ucspi-ssl                      nobin
 
 
 # Has to be built for a certain kernel
 
-app-emulation/virtualbox-modules	nobin
-sys-kernel/linux-firmware		nobin
-x11-drivers/nvidia-drivers		nobin
+app-emulation/virtualbox-modules        nobin
+sys-kernel/linux-firmware               nobin
+x11-drivers/nvidia-drivers              nobin
 
 
 # Too wide USE diversity
 # Clients will likely have to build it anyway
 
-x11-base/xorg-drivers			nobin
+x11-base/xorg-drivers                   nobin
