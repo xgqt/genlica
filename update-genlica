@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 
 
+trap 'exit 128' INT
+export PATH
+
+
 main() {
     if command -v emerge >/dev/null 2>&1
     then
+        export ACCEPT_KEYWORDS="**"
+        export FEATURES="-getbinpkg"
         emerge -v -1 --autounmask --jobs=1 \
                --usepkg-exclude \* --quiet-build=n genlica
     fi
