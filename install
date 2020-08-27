@@ -54,7 +54,7 @@ EOF
     if [ ! -e "${EPREFIX}/etc/portage/make.conf/03-emerge" ]
     then
         cat > "${EPREFIX}/etc/portage/make.conf/03-emerge" <<EOF
-EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --jobs=$(nproc)"
+EMERGE_DEFAULT_OPTS="\${EMERGE_DEFAULT_OPTS} --jobs=$(nproc)"
 EOF
     fi
 
