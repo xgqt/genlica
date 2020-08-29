@@ -1,4 +1,3 @@
 # Falkon QT Web Browser
-dev-qt/qtwebengine                      widgets
 dev-qt/qtwebchannel                     qml
 sys-libs/zlib                           minizip
