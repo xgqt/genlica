@@ -51,16 +51,57 @@ LDCFLAGS="-O4 -release"
 # >>> USE flags
 
 USE="
-	${USE}
-	dbus elogind -consolekit -systemd
-	pie threads -bindist -gpm
-	initramfs firmware lm-sensors usb v4l wifi
-	xinerama -wayland
-	branding gtk3 xft -gtk2 -gnome -qt4 -tk
-	alsa git gpg mtp networkmanager pulseaudio sound
-	-gnome-online-accounts -nautilus -perl -samba -tracker
-	gif jpeg png raw svg xpm
-	zsh-completion
+    ${USE}
+    -bindist
+    -consolekit
+    -gnome
+    -gnome-online-accounts
+    -gpm
+    -gtk2
+    -nautilus
+    -perl
+    -qt4
+    -samba
+    -systemd
+    -tk
+    -tracker
+    -wayland
+    alsa
+    bluetooth
+    branding
+    dbus
+    elogind
+    firmware
+    gif
+    git
+    gpg
+    gtk3
+    icu
+    initramfs
+    jpeg
+    ldap
+    lm-sensors
+    mtp
+    ogg
+    pie
+    png
+    policykit
+    pulseaudio
+    raw
+    sdl
+    sound
+    svg
+    threads
+    tiff
+    truetype
+    udev
+    usb
+    v4l
+    wifi
+    xft
+    xml
+    xpm
+    zsh-completion
 "
 
 # * Your video drivers
