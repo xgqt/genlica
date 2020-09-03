@@ -8,19 +8,33 @@ export PATH
 
 
 main() {
+    # Auto-select the stow implementation
+    if exists stow
+    then
+        stow_impl=stow
+    elif exists xstow
+    then
+        stow_impl=xstow
+    elif exists pystow
+    then
+        stow_impl=pystow
+    else
+        err_msg "There is no stow on the sytem! Exiting"
+    fi
+
     cd "$(dirname "${0}")" || exit 1
 
     # First reset any changes
     git reset --hard
 
     # Then safely remove links
-    stow -D -v portage -t "${EPREFIX}/etc/portage"
+    ${stow_impl} -D -v portage -t "${EPREFIX}/etc/portage"
 
     # Pull
     git pull
 
     # After taht link again
-    stow -v portage -t "${EPREFIX}/etc/portage"
+    ${stow_impl} -v portage -t "${EPREFIX}/etc/portage"
 }
 
 
