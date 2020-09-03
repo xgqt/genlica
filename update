@@ -4,18 +4,19 @@
 # Update genlica
 
 
+trap 'exit 128' INT
 export PATH
 
 
 main() {
     # Auto-select the stow implementation
-    if exists stow
+    if command -v stow >/dev/null 2>&1
     then
         stow_impl=stow
-    elif exists xstow
+    elif command -v xstow >/dev/null 2>&1
     then
         stow_impl=xstow
-    elif exists pystow
+    elif command -v pystow >/dev/null 2>&1
     then
         stow_impl=pystow
     else
