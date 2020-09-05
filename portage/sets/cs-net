@@ -9,6 +9,7 @@
 # To remove:
 #	emerge --deselect @cs-net
 #
+net-analyzer/iftop
 net-analyzer/iptraf-ng
 net-analyzer/mtr
 net-analyzer/nmap
