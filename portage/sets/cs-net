@@ -24,6 +24,7 @@ net-misc/curl
 net-misc/iperf
 net-misc/iputils
 net-misc/netkit-telnetd
+net-misc/ntp
 net-misc/socat
 net-misc/whois
 sys-apps/ethtool
