@@ -9,6 +9,7 @@
 # To remove:
 #       emerge --deselect @cs-xfce
 #
+app-admin/system-config-printer
 app-crypt/seahorse
 dev-util/catfish
 gnome-base/gnome-keyring
