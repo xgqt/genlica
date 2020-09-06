@@ -1,6 +1,10 @@
 #!/bin/sh
 
 
+trap 'exit 128' INT
+export PATH
+
+
 exit_result=0
 files="$(grep -R --exclude-dir='.git' '^#!/.*sh$' 2>/dev/null | cut -d ':' -f 1)"
 

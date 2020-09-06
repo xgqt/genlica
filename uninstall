@@ -1,6 +1,10 @@
 #!/bin/sh
 
 
+trap 'exit 128' INT
+export PATH
+
+
 main() {
 	stow -D -v portage -t "${EPREFIX}/etc/portage"
 	echo "There may be some trash left over"

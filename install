@@ -1,6 +1,13 @@
 #!/bin/sh
 
 
+# Install Genlica
+
+
+trap 'exit 128' INT
+export PATH
+
+
 main() {
     cd "$(dirname "${0}")" || exit 1
 
