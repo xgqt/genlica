@@ -1,5 +1,6 @@
-# Accept all game packages
 # Gamers rise up!
+
+# Accept all game packages
 games-action/*
 games-arcade/*
 games-board/*
@@ -16,3 +17,6 @@ games-simulation/*
 games-sports/*
 games-strategy/*
 games-util/*
+
+# And some emulators
+app-emulation/vice
