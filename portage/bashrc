@@ -1,6 +1,14 @@
 #!/usr/bin/env bash
 
 
+# Genlica Portage bashrc
+
+# Copyright (c) 2019-2020, XGQT
+# Licensed under the ISC license
+
+
+# CCache
+
 if [[ "${FEATURES}" == *ccache* && "${EBUILD_PHASE_FUNC}" == src_* ]]
 then
     if [[ "${CCACHE_DIR}" == "${EPREFIX}"/var/cache/ccache ]]
@@ -15,3 +23,34 @@ then
         fi
     fi
 fi
+
+
+# Ebuild phase time
+
+my_phases="
+compile
+config
+configure
+install
+nofetch
+postinst
+postrm
+preinst
+prepare
+prerm
+pretend
+setup
+test
+unpack
+"
+
+for my_phase in ${my_phases}
+do
+    if [[ "${EBUILD_PHASE}" == "${my_phase}" ]]
+    then
+        echo "[ $(date +%H:%M:%S) ] ${my_phase^^} for version ${PV} of ${PN} from ${CATEGORY}"
+    fi
+done
+
+unset my_phase
+unset my_phases
