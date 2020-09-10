@@ -10,6 +10,7 @@
 #       emerge --deselect @cs-xfce
 #
 app-admin/system-config-printer
+app-arch/file-roller
 app-crypt/seahorse
 dev-util/catfish
 gnome-base/gnome-keyring
@@ -19,6 +20,7 @@ media-sound/pavucontrol
 x11-apps/mesa-progs
 x11-apps/xrandr
 xfce-base/xfce4-meta
+xfce-extra/thunar-archive-plugin
 xfce-extra/xfce4-clipman-plugin
 xfce-extra/xfce4-cpugraph-plugin
 xfce-extra/xfce4-netload-plugin
