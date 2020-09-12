@@ -1,3 +1,6 @@
 # LXQT
 lxqt-base/lxqt-meta                     powermanagement terminal
-lxqt-base/lxqt-meta                     -about -trash
+lxqt-base/lxqt-meta                     -about -display-manager -sddm
+lxqt-base/lxqt-meta                     -trash
+lxqt-base/lxqt-config                   -monitor
+lxqt-base/lxqt-panel                    cpuload networkmonitor statusnotifier
