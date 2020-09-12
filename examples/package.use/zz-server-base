@@ -1,2 +1,11 @@
-# For server without gui
-app-crypt/pinentry	-fltk -gnome-keyring -gtk -qt5
+# For a server without GUI
+*/*                                     -fltk -gtk -gtk2 -gtk3 -qt5
+*/*                                     -gnome-keyring
+*/*                                     -imagemagick
+*/*                                     -pulseaudio
+*/*                                     -svg
+*/*                                     -vala -vulkan
+app-crypt/pinentry                      -gnome-keyring
+media-libs/imlib2                       -shm
+net-misc/networkmanager                 -introspection -vala
+www-client/w3m                          -imlib
