@@ -1,4 +1,5 @@
 # For a server without GUI
+*/*                                     -cairo
 */*                                     -fltk -gtk -gtk2 -gtk3 -qt5
 */*                                     -gnome-keyring
 */*                                     -imagemagick
