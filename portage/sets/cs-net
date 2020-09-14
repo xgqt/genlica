@@ -19,6 +19,7 @@ net-analyzer/tcptraceroute
 net-analyzer/traceroute
 net-dns/bind-tools
 net-dns/ldns-utils
+net-ftp/lftp
 net-misc/bridge-utils
 net-misc/curl
 net-misc/iperf
