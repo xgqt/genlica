@@ -14,7 +14,7 @@ sci-mathematics/octave                  readline
 sci-mathematics/octave                  -opengl
 
 # Maxima
-sci-mathematics/maxima                  sbcl tk
+sci-mathematics/maxima                  sbcl
 
 # RStudio
 sci-mathematics/rstudio                 server
