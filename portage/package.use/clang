@@ -1,0 +1,8 @@
+# Clang
+
+
+# Disable forced compilation that uses clang
+# for those packages
+# They dont generate warining when used with
+# a compiler different than clang
+sys-libs/compiler-rt-sanitizers         -clang
