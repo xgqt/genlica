@@ -1,0 +1,10 @@
+# C#
+
+
+# Mono
+# This USE flag (in the ebuild) is unnecessary.
+# It should be changed to
+# 'optfeature "full features" dev-donet/libgdiplus'
+# So yea... instead of doing 'emerge mono'
+# do 'emerge dev-dotnet/libgdiplus' instead
+dev-lang/mono                           minimal
