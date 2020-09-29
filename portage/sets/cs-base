@@ -10,6 +10,7 @@
 # To remove:
 #       emerge --deselect @cs-base
 #
+app-admin/rsyslog
 app-eselect/eselect-timezone
 app-eselect/eselect-vi
 app-misc/ranger
@@ -25,5 +26,6 @@ sys-devel/gdb
 sys-fs/cryptsetup
 sys-fs/lvm2
 sys-fs/ncdu
+sys-process/cronie
 sys-process/htop
 sys-process/lsof
