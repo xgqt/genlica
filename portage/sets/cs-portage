@@ -1,13 +1,14 @@
 # Custom Set: Portage
+#       portage helpers
 #
 # To install:
-#	emerge -av @cs-portage
+#       emerge -av @cs-portage
 #
 # The set will be added to:
-#	/var/lib/portage/world_sets
+#       /var/lib/portage/world_sets
 #
 # To remove:
-#	emerge --deselect @cs-portage
+#       emerge --deselect @cs-portage
 #
 app-doc/eclass-manpages
 app-eselect/eselect-repository

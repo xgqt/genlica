@@ -1,4 +1,5 @@
 # Custom Set: Steam
+#       steam dependencies
 #
 # To install:
 #       emerge -av @cs-steam
