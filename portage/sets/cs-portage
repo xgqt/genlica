@@ -2,7 +2,7 @@
 #       portage helpers
 #
 # To install:
-#       emerge -av @cs-portage
+#       emerge -anv @cs-portage
 #
 # The set will be added to:
 #       /var/lib/portage/world_sets

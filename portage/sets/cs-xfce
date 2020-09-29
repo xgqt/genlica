@@ -2,7 +2,7 @@
 #       my xfce desktop mix
 #
 # To install:
-#       emerge -av @cs-xfce
+#       emerge -anv @cs-xfce
 #
 # The set will be added to:
 #       /var/lib/portage/world_sets

@@ -2,7 +2,7 @@
 #       network oriented programs
 #
 # To install:
-#       emerge -av @cs-net
+#       emerge -anv @cs-net
 #
 # The set will be added to:
 #       /var/lib/portage/world_sets

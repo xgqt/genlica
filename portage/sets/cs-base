@@ -2,7 +2,7 @@
 #       basic helpful programs
 #
 # To install:
-#       emerge -av @cs-base
+#       emerge -anv @cs-base
 #
 # The set will be added to:
 #       /var/lib/portage/world_sets

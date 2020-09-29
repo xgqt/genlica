@@ -2,7 +2,7 @@
 #       steam dependencies
 #
 # To install:
-#       emerge -av @cs-steam
+#       emerge -anv @cs-steam
 #
 # The set will be added to:
 #       /var/lib/portage/world_sets

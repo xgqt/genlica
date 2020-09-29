@@ -2,7 +2,7 @@
 #       hardware oriented programs
 #
 # To install:
-#       emerge -av @cs-hw
+#       emerge -anv @cs-hw
 #
 # The set will be added to:
 #       /var/lib/portage/world_sets
