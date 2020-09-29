@@ -1,0 +1,29 @@
+# Custom Set: Base
+#       basic helpful programs
+#
+# To install:
+#       emerge -av @cs-base
+#
+# The set will be added to:
+#       /var/lib/portage/world_sets
+#
+# To remove:
+#       emerge --deselect @cs-base
+#
+app-eselect/eselect-timezone
+app-eselect/eselect-vi
+app-misc/ranger
+app-misc/tmux
+app-shells/gentoo-zsh-completions
+app-shells/mksh
+app-shells/zsh
+app-shells/zsh-completions
+app-text/tree
+dev-util/ccache
+dev-util/strace
+sys-devel/gdb
+sys-fs/cryptsetup
+sys-fs/lvm2
+sys-fs/ncdu
+sys-process/htop
+sys-process/lsof
