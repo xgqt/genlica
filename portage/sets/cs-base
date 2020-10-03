@@ -19,7 +19,6 @@ app-shells/gentoo-zsh-completions
 app-shells/mksh
 app-shells/zsh
 app-shells/zsh-completions
-app-text/tree
 dev-util/ccache
 dev-util/strace
 sys-devel/gdb
