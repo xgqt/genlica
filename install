@@ -11,6 +11,20 @@ export PATH
 main() {
     cd "$(dirname "${0}")" || exit 1
 
+    # Auto-select the stow implementation
+    if command -v stow >/dev/null 2>&1
+    then
+        stow_impl=stow
+    elif command -v xstow >/dev/null 2>&1
+    then
+        stow_impl=xstow
+    elif command -v pystow >/dev/null 2>&1
+    then
+        stow_impl=pystow
+    else
+        err_msg "There is no stow on the sytem! Exiting"
+    fi
+
     # Back up the old portage directory
     if [ -d "${EPREFIX}/etc/portage" ] && [ ! -d "${EPREFIX}/etc/portage.bak" ]
     then
@@ -31,7 +45,7 @@ main() {
     mkdir "${EPREFIX}/etc/portage/sets"
 
     # Install genlica
-    stow -v portage -t "${EPREFIX}/etc/portage" || exit 1
+    ${stow_impl} -v portage -t "${EPREFIX}/etc/portage" || exit 1
 
     # Select the profile
     if [ -z "${EPREFIX}" ]
