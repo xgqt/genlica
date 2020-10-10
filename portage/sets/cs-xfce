@@ -16,6 +16,7 @@ app-crypt/seahorse
 dev-util/catfish
 gnome-base/gnome-keyring
 gnome-extra/nm-applet
+media-sound/alsa-utils
 media-sound/paprefs
 media-sound/pavucontrol
 x11-apps/mesa-progs
