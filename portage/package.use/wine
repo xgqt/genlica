@@ -1,2 +1,20 @@
 # Wine Is Not an Emulator
+
+# Any
+app-emulation/wine-any                  custom-cflags
+app-emulation/wine-any                  -realtime -udisks
+
+# D3D9
+app-emulation/wine-d3d9                 custom-cflags
+app-emulation/wine-d3d9                 -realtime -udisks
+
+# Staging
+app-emulation/wine-staging              custom-cflags
+app-emulation/wine-staging              -realtime -udisks
+
+# Vanilla
+app-emulation/wine-vanilla              custom-cflags
+app-emulation/wine-vanilla              -realtime -udisks
+
+# Dependencies
 media-libs/libsdl2                      haptic
