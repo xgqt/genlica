@@ -23,7 +23,9 @@ dev-util/ccache
 dev-util/strace
 sys-devel/gdb
 sys-fs/cryptsetup
+sys-fs/dosfstools
 sys-fs/lvm2
+sys-fs/mdadm
 sys-fs/ncdu
 sys-process/cronie
 sys-process/htop
