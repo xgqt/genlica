@@ -10,9 +10,9 @@ dev-qt/qtmultimedia                     gstreamer qml
 # Qt but not KDE ;)
 
 # Remove KDE from KDE
-*/*                                     -kde -kwallet
-kde-apps/*                              -doc -handbook -man -policykit
-kde-frameworks/*                        -doc -handbook -man -policykit
+*/*                                     -handbook -kde -kwallet
+kde-apps/*                              -doc -man -policykit
+kde-frameworks/*                        -doc -man -policykit
 
 # Unnecessary
 kde-frameworks/kwallet                  -gpg
