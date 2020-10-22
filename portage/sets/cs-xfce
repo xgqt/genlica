@@ -14,6 +14,7 @@ app-admin/system-config-printer
 app-arch/file-roller
 app-crypt/seahorse
 dev-util/catfish
+gnome-base/dconf-editor
 gnome-base/gnome-keyring
 gnome-extra/nm-applet
 media-sound/alsa-utils
