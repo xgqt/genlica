@@ -20,6 +20,7 @@ media-sound/alsa-utils
 media-sound/paprefs
 media-sound/pavucontrol
 x11-apps/mesa-progs
+x11-apps/xfd
 x11-apps/xrandr
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
