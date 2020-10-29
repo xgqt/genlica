@@ -1,2 +1,2 @@
 # libpcre2 - Perl-compatible regular expression library
-dev-libs/libpcre2           pcre32
+dev-libs/libpcre2           pcre16 pcre32
