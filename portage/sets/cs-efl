@@ -1,0 +1,30 @@
+# Custom Set: EFL
+#       EFL and Enlightenment apps
+#
+# To install:
+#       emerge -anv @cs-efl
+#
+# The set will be added to:
+#       /var/lib/portage/world_sets
+#
+# To remove:
+#       emerge --deselect @cs-efl
+#
+app-admin/system-config-printer
+app-arch/file-roller
+app-crypt/seahorse
+dev-libs/efl
+gnome-base/gnome-keyring
+media-gfx/ephoto
+media-sound/alsa-utils
+media-sound/paprefs
+media-sound/pavucontrol
+sys-process/evisum
+x11-apps/mesa-progs
+x11-apps/xfd
+x11-apps/xrandr
+x11-misc/qt5ct
+x11-terms/terminology
+x11-themes/e-flat-theme
+x11-themes/e-gtk-theme
+x11-wm/enlightenment

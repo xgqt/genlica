@@ -1,0 +1,6 @@
+dev-libs/efl				bmp eet fontconfig
+dev-libs/efl				harfbuzz ico luajit
+dev-libs/efl				system-lz4 webp xcf
+dev-libs/efl				-gstreamer -lua
+x11-wm/enlightenment			-acpi
+x11-terms/terminology			extras
