@@ -21,8 +21,6 @@ media-sound/paprefs
 media-sound/pavucontrol
 sys-process/evisum
 x11-apps/mesa-progs
-x11-apps/xfd
-x11-apps/xrandr
 x11-misc/qt5ct
 x11-terms/terminology
 x11-themes/e-flat-theme
