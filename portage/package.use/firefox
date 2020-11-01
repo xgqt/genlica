@@ -6,4 +6,5 @@ www-client/firefox                      system-av1 system-harfbuzz system-icu
 www-client/firefox                      system-jpeg system-libevent system-libvpx
 www-client/firefox                      system-webp
 www-client/firefox                      -system-sqlite
+www-client/firefox                      -wifi
 media-libs/libvpx                       postproc

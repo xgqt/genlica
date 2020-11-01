@@ -5,3 +5,4 @@ mail-client/thunderbird                 hardened
 mail-client/thunderbird                 system-av1 system-harfbuzz system-icu
 mail-client/thunderbird                 system-jpeg system-libevent system-libvpx
 mail-client/thunderbird                 system-webp system-sqlite
+mail-client/thunderbird                 -wifi
