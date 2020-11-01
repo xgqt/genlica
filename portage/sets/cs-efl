@@ -19,6 +19,8 @@ media-gfx/ephoto
 media-sound/alsa-utils
 media-sound/paprefs
 media-sound/pavucontrol
+net-firewall/nftables
+net-misc/econnman
 sys-process/evisum
 x11-apps/mesa-progs
 x11-misc/qt5ct

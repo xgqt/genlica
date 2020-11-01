@@ -1,6 +1,17 @@
-dev-libs/efl				bmp eet fontconfig
-dev-libs/efl				harfbuzz ico luajit
-dev-libs/efl				system-lz4 webp xcf
-dev-libs/efl				-gstreamer -lua
-x11-wm/enlightenment			-acpi
-x11-terms/terminology			extras
+# Enlightnement desktop, components and libraries
+
+# Libraries
+dev-libs/efl                            bmp eet fontconfig
+dev-libs/efl                            harfbuzz ico luajit
+dev-libs/efl                            system-lz4 webp xcf
+dev-libs/efl                            -gstreamer -lua
+
+# Connman
+dev-libs/efl                            connman
+net-misc/connman                        networkmanager nftables wireguard
+net-misc/connman                        -iptables
+x11-wm/enlightenment                    connman
+
+# Desktop
+x11-terms/terminology                   extras
+x11-wm/enlightenment                    -acpi
