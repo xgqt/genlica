@@ -1,3 +1,11 @@
-# Rust language
-dev-lang/rust                           clippy rls rustfmt wasm
+# Rust
+
+# Rust - Main language implementation
 dev-lang/rust                           LLVM_TARGETS: WebAssembly
+dev-lang/rust                           clippy miri nightly
+dev-lang/rust                           parallel-compiler rls rustfmt
+dev-lang/rust                           system-llvm wasm
+dev-lang/rust                           -system-bootstrap
+
+# Dependencies
+sys-devel/llvm                          LLVM_TARGETS: WebAssembly

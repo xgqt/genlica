@@ -1,0 +1,5 @@
+# Unmask USE flags
+
+# Rust
+dev-lang/rust                           -miri -nightly -parallel-compiler
+dev-lang/rust                           -system-llvm
