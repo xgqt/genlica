@@ -1,0 +1,29 @@
+#!/bin/sh
+
+
+# Deselect packages from a set
+
+
+main() {
+    if [ -z "${1}" ]
+    then
+        echo "No set file given"
+        echo "As argument (one) give a path to a set file"
+        echo "Example: ${0} /etc/portage/sets/cs-hw"
+        return 1
+    else
+        sed '/^#/d' "${1}" | while IFS= read -r pkg
+        do
+            echo "[D] Deselecting ${pkg}..."
+            emerge --deselect "${pkg}"
+        done
+    fi
+}
+
+
+if [ "$(whoami)" != root ]
+then
+	sudo "${0}" "${1}"
+else
+	main "${1}"
+fi
