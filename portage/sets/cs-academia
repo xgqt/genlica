@@ -1,0 +1,44 @@
+# Custom Set: Base
+#       academia software
+#
+# To install:
+#       emerge -anv @cs-academia
+#
+# The set will be added to:
+#       /var/lib/portage/world_sets
+#
+# To remove:
+#       emerge --deselect @cs-academia
+#
+app-doc/doxygen
+app-editors/emacs
+app-office/dia
+app-office/libreoffice
+app-office/texmaker
+app-text/pandoc
+app-text/pdfjam
+dev-haskell/pandoc-citeproc
+dev-lang/R
+dev-python/autopep8
+dev-python/black
+dev-python/flake8
+dev-python/jupyter
+dev-python/nose
+dev-python/pip
+dev-python/pylint
+dev-python/pytest
+dev-python/qtconsole
+dev-python/rope
+dev-python/sphinx
+dev-python/virtualenv
+dev-python/yapf
+dev-texlive/texlive-latexextra
+dev-texlive/texlive-plaingeneric
+media-gfx/librecad
+media-gfx/openscad
+net-analyzer/wireshark
+sci-mathematics/maxima
+sci-mathematics/octave
+sys-devel/gdb
+virtual/awk
+virtual/jdk
