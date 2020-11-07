@@ -21,6 +21,7 @@ app-shells/zsh
 app-shells/zsh-completions
 dev-util/ccache
 dev-util/strace
+sys-block/parted
 sys-devel/gdb
 sys-fs/cryptsetup
 sys-fs/dosfstools

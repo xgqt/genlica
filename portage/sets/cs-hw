@@ -17,4 +17,5 @@ sys-apps/pciutils
 sys-apps/smartmontools
 sys-apps/usbutils
 sys-fs/sysfsutils
+sys-kernel/genkernel
 sys-power/powertop
