@@ -27,7 +27,7 @@ fi
 
 # Verbose ebuild phase
 
-if [ -n "${EBUILD_PHASE}" ]
+if [ -n "${EBUILD_PHASE}" ] && [ ! "${EBUILD_PHASE}" = "depend" ]
 then
     echo "[ $(date +%H:%M:%S) ] ${EBUILD_PHASE^^} for version ${PV} of ${PN} from ${CATEGORY}"
 fi
