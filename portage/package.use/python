@@ -1,15 +1,21 @@
 # Python
+
+# Main implementation package
 dev-lang/python                         sqlite
 
-# Exclude python2.7 from python_targets
+# Exclude deprecated python_targets
 */*                                     PYTHON_TARGETS: -python2_7
-# Exclude python3.6 from python_targets
 */*                                     PYTHON_TARGETS: -python3_6
 
-# Those pkgs need python2:
-dev-python/scandir                      PYTHON_TARGETS: python2_7
-
-# Other Python packages
+# Miscellaneous Python packages
 dev-python/PyQt5                        declarative designer
 dev-python/PyQt5                        -webkit
 dev-python/QtPy                         gui printsupport
+
+# Exclude python from those
+app-misc/pax-utils                      PYTHON_SINGLE_TARGET: -*
+dev-libs/libixion                       PYTHON_SINGLE_TARGET: -*
+dev-libs/liborcus                       PYTHON_SINGLE_TARGET: -*
+dev-vcs/git                             PYTHON_SINGLE_TARGET: -*
+media-libs/alsa-lib                     PYTHON_SINGLE_TARGET: -*
+sys-apps/usbutils                       PYTHON_SINGLE_TARGET: -*
