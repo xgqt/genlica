@@ -57,6 +57,7 @@ USE="
     -gnome
     -gnome-online-accounts
     -gpm
+    -gstreamer
     -gtk2
     -nautilus
     -perl
@@ -91,6 +92,38 @@ USE="
     sdl
     sound
     svg
+    system-av1
+    system-binutils
+    system-boost
+    system-bootloader
+    system-bootstrap
+    system-cmark
+    system-ffmpeg
+    system-harfbuzz
+    system-heimdal
+    system-icu
+    system-ipxe
+    system-jpeg
+    system-jsoncpp
+    system-lcms
+    system-leveldb
+    system-libevent
+    system-libs
+    system-libvpx
+    system-libyaml
+    system-llvm
+    system-lua
+    system-lz4
+    system-mathjax
+    system-mesa
+    system-mitkrb5
+    system-numpy
+    system-python
+    system-qemu
+    system-ssl
+    system-webp
+    system-wlroots
+    system-zlib
     threads
     tiff
     truetype

@@ -9,7 +9,6 @@ media-libs/libmediaart                  gtk introspection
 # Extras
 app-misc/tracker                        -miners
 app-text/evince                         -spell
-app-text/evince                         gstreamer
 dev-util/glade                          -webkit
 dev-util/glade                          python
 media-gfx/gthumb                        -cdr
@@ -24,7 +23,7 @@ gnome-base/gvfs                         -samba
 gnome-base/gvfs                         archive fuse
 
 # GNOME Desktop
-app-misc/tracker-miners                 -exif -gif -gstreamer
+app-misc/tracker-miners                 -exif -gif
 app-misc/tracker-miners                 -iso -jpeg -pdf
 app-misc/tracker-miners                 -playlist -raw -rss
 app-misc/tracker-miners                 -tiff -upower -xml
@@ -32,5 +31,4 @@ gnome-base/gnome-control-center         -flickr -gnome-online-accounts -v4l
 gnome-base/gnome-control-center         networkmanager
 gnome-base/gnome-settings-daemon        colord modemmanager networkmanager
 gnome-base/gnome-shell                  -browser-extension
-gnome-base/nautilus                     -gstreamer
 gnome-extra/evolution-data-server       -berkdb -weather

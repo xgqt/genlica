@@ -4,7 +4,7 @@
 dev-libs/efl                            bmp eet fontconfig
 dev-libs/efl                            harfbuzz ico luajit
 dev-libs/efl                            system-lz4 webp xcf
-dev-libs/efl                            -gstreamer -lua
+dev-libs/efl                            -lua
 
 # Connman
 dev-libs/efl                            connman
