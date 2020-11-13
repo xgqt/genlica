@@ -1,5 +1,5 @@
-# Custom Set: Base
-#       academia software
+# Custom Set: Academia
+#       academia software - tex, c++, python, java, science tools
 #
 # To install:
 #       emerge -anv @cs-academia
