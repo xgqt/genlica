@@ -67,6 +67,7 @@ USE="
     -tk
     -tracker
     -wayland
+    -zeroconf
     alsa
     bluetooth
     branding
