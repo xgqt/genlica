@@ -1,10 +1,11 @@
+# Qt toolkit
+
+
 # Qt packages
 
 dev-libs/qtkeychain                     gnome-keyring
 dev-python/PyQt5                        webchannel
-
-# Wanted by net-im/nheko
-dev-qt/qtmultimedia                     gstreamer qml
+dev-qt/qtmultimedia                     qml
 
 
 # Qt but not KDE ;)
