@@ -10,15 +10,23 @@
 # To remove:
 #       emerge --deselect @cs-academia
 #
+app-admin/system-config-printer
 app-doc/doxygen
 app-editors/emacs
+app-emulation/libvirt
+app-emulation/qemu
+app-emulation/virt-manager
+app-emulation/virt-viewer
+app-emulation/winetricks
 app-office/dia
 app-office/libreoffice
 app-office/texmaker
+app-text/dvipng
 app-text/pandoc
 app-text/pdfjam
 dev-cpp/gtest
 dev-haskell/pandoc-citeproc
+dev-java/openjdk
 dev-lang/R
 dev-python/autopep8
 dev-python/black
@@ -34,10 +42,14 @@ dev-python/sphinx
 dev-python/virtualenv
 dev-python/yapf
 dev-texlive/texlive-latexextra
+dev-texlive/texlive-luatex
 dev-texlive/texlive-plaingeneric
+dev-vcs/git
 media-gfx/librecad
 media-gfx/openscad
+media-gfx/simple-scan
 media-libs/opencv
+net-analyzer/nmap
 net-analyzer/wireshark
 sci-mathematics/maxima
 sci-mathematics/octave
@@ -45,4 +57,4 @@ sys-apps/util-linux
 sys-devel/gcc
 sys-devel/gdb
 virtual/awk
-virtual/jdk
+virtual/wine
