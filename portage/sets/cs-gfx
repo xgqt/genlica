@@ -1,0 +1,22 @@
+# Custom Set: Graphics
+#       miscellaneous graphics software
+#
+# To install:
+#       emerge -anv @cs-gfx
+#
+# The set will be added to:
+#       /var/lib/portage/world_sets
+#
+# To remove:
+#       emerge --deselect @cs-gfx
+#
+media-gfx/chafa
+media-gfx/darktable
+media-gfx/gimp
+media-gfx/imagemagick
+media-gfx/inkscape
+media-gfx/jp2a
+media-gfx/jpegoptim
+media-gfx/nomacs
+media-gfx/optipng
+media-video/ffmpeg
