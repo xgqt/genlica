@@ -1,0 +1,4 @@
+# Vidoe LAN
+media-video/vlc                         archive opus taglib
+media-video/vlc                         theora vpx x265
+media-video/vlc                         -dvbpsi
