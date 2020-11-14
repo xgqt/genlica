@@ -1,5 +1,6 @@
 # Custom Set: Academia
-#       academia software - tex, c++, python, java, science tools
+#       academia software
+#	c++, java, python, science tools, tex
 #
 # To install:
 #       emerge -anv @cs-academia
@@ -18,7 +19,6 @@ app-emulation/qemu
 app-emulation/virt-manager
 app-emulation/virt-viewer
 app-emulation/winetricks
-app-office/dia
 app-office/libreoffice
 app-office/texmaker
 app-text/dvipng
