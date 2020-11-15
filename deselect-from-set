@@ -1,6 +1,8 @@
 #!/bin/sh
 
 
+# shellcheck disable=2046
+
 # Deselect packages from a set
 
 
@@ -12,11 +14,7 @@ main() {
         echo "Example: ${0} /etc/portage/sets/cs-hw"
         return 1
     else
-        sed '/^#/d' "${1}" | while IFS= read -r pkg
-        do
-            echo "[D] Deselecting ${pkg}..."
-            emerge --deselect "${pkg}"
-        done
+        emerge --deselect $(sed '/^#/d' "${1}")
     fi
 }
 
