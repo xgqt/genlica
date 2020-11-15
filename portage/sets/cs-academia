@@ -44,6 +44,7 @@ dev-python/yapf
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-luatex
 dev-texlive/texlive-plaingeneric
+dev-util/shellcheck
 dev-vcs/git
 media-gfx/librecad
 media-gfx/openscad
