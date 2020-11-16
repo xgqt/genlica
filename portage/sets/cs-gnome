@@ -1,0 +1,30 @@
+# Custom Set: XFCE
+#       my xfce desktop mix
+#
+# To install:
+#       emerge -anv @cs-xfce
+#
+# The set will be added to:
+#       /var/lib/portage/world_sets
+#
+# To remove:
+#       emerge --deselect @cs-xfce
+#
+app-admin/system-config-printer
+app-arch/file-roller
+app-text/evince
+gnome-base/dconf-editor
+gnome-base/gnome-control-center
+gnome-base/gnome-core-libs
+gnome-base/gnome-keyring
+gnome-base/gnome-session
+gnome-base/gnome-settings-daemon
+gnome-base/gnome-shell
+gnome-extra/gnome-shell-extensions-topicons-plus
+gnome-extra/gnome-tweaks
+media-sound/alsa-utils
+media-sound/paprefs
+media-sound/pavucontrol
+x11-apps/mesa-progs
+x11-misc/qt5ct
+x11-wm/mutter
