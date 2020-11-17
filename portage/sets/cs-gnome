@@ -12,7 +12,6 @@
 #
 app-admin/system-config-printer
 app-arch/file-roller
-app-text/evince
 gnome-base/dconf-editor
 gnome-base/gnome-control-center
 gnome-base/gnome-core-libs
