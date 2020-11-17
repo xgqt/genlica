@@ -1,14 +1,14 @@
-# Custom Set: XFCE
-#       my xfce desktop mix
+# Custom Set: GNOME
+#       a weird GNOME mix for OpenRC
 #
 # To install:
-#       emerge -anv @cs-xfce
+#       emerge -anv @cs-gnome
 #
 # The set will be added to:
 #       /var/lib/portage/world_sets
 #
 # To remove:
-#       emerge --deselect @cs-xfce
+#       emerge --deselect @cs-gnome
 #
 app-admin/system-config-printer
 app-arch/file-roller
