@@ -1,0 +1,29 @@
+#!/bin/sh
+
+
+trap 'exit 128' INT
+export PATH
+
+
+if [ -z "${1}" ]; then
+    echo "Your commit message is empty!"
+    exit 1
+fi
+
+
+cd "$(portageq get_repo_path / gentoo)" >/dev/null || exit 1
+grid="$(git rev-parse HEAD)"
+cd - >/dev/null || exit 1
+
+msg="${*}
+$(qlist -CIev portage) $(qlist -CIev repoman) $(qlist -CIev pkgcore)
+Head commit of repository gentoo: ${grid}"
+
+
+echo "Message:"
+echo "${msg}"
+
+
+git add .
+git commit -m "${msg}"
+git push
