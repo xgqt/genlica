@@ -8,7 +8,7 @@ sci-visualization/gnuplot               qt5
 sci-visualization/gnuplot               -wxwidgets
 
 # Octave
-sci-mathematics/octave                  curl fftw
+sci-mathematics/octave                  curl doc fftw
 sci-mathematics/octave                  gnuplot gui postscript
 sci-mathematics/octave                  readline
 sci-mathematics/octave                  -opengl
