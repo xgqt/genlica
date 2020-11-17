@@ -2,12 +2,14 @@
 
 
 echo_msg() {
-	echo "$(tput bold)$*$(tput sgr0)"
+    echo "$(tput bold)$*$(tput sgr0)"
 }
 
 
+cd "$(dirname "${0}")" || exit 1
+
 [ ! -d "${EPREFIX}/etc/portage" ] && echo_msg "No portage tree found" && exit 1
-[ ! -d ./portage ] && ech_msg "No genlica's portage directory found" && exit 1
+[ ! -d ./portage ] && echo_msg "No genlica's portage directory found" && exit 1
 
 echo_msg "Differences between genlica's portage tree and the local one:"
 
