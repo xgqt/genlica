@@ -1,7 +1,10 @@
 # MPD Setup
 
 # Main
-media-sound/mpd                         alsa fifo
+media-sound/mpd                         alsa fifo opus
+
+# Graphical Players
+media-sound/cantata                     http-server musicbrainz taglib
 
 # Termianl Players
 media-sound/ncmpcpp                     clock taglib visualizer
