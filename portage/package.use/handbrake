@@ -1,0 +1,3 @@
+# HandBrake - video transcoder
+media-video/handbrake                   libav-aac
+media-video/handbrake                   -fdk
