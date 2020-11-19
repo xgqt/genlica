@@ -7,16 +7,20 @@ sci-visualization/gnuplot               bitmap latex
 sci-visualization/gnuplot               qt5
 sci-visualization/gnuplot               -wxwidgets
 
+# Maxima
+sci-mathematics/maxima                  sbcl
+
 # Octave
 sci-mathematics/octave                  curl doc fftw
 sci-mathematics/octave                  gnuplot gui postscript
 sci-mathematics/octave                  readline
 sci-mathematics/octave                  -opengl
 
-# Maxima
-sci-mathematics/maxima                  sbcl
+# Prolog
+dev-lang/swi-prolog                     archive doc yaml
+dev-lang/swi-prolog                     -libedit
 
-# RStudio
+# R
 sci-mathematics/rstudio                 server
 sci-mathematics/rstudio                 -dedicated
 dev-java/validation-api                 source
