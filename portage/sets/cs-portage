@@ -11,6 +11,7 @@
 #       emerge --deselect @cs-portage
 #
 app-doc/eclass-manpages
+app-eselect/eselect-package-manager
 app-eselect/eselect-repository
 app-portage/eix
 app-portage/gentoolkit
@@ -19,3 +20,4 @@ app-portage/repoman
 app-portage/smart-live-rebuild
 dev-util/pkgcheck
 dev-vcs/git
+sys-apps/pkgcore
