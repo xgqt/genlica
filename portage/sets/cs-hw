@@ -12,6 +12,7 @@
 #
 app-admin/eclean-kernel
 app-portage/cpuid2cpuflags
+sys-apps/lm-sensors
 sys-apps/lshw
 sys-apps/pciutils
 sys-apps/smartmontools
