@@ -66,7 +66,6 @@ USE="
     -systemd
     -tk
     -tracker
-    -wayland
     -zeroconf
     alsa
     bluetooth
@@ -74,25 +73,17 @@ USE="
     dbus
     elogind
     firmware
-    gif
     git
     gpg
-    gtk3
-    icu
     initramfs
-    jpeg
     ldap
     lm-sensors
     mtp
-    ogg
     pie
-    png
     policykit
     pulseaudio
     raw
-    sdl
     sound
-    svg
     system-av1
     system-binutils
     system-boost
@@ -126,8 +117,6 @@ USE="
     system-wlroots
     system-zlib
     threads
-    tiff
-    truetype
     udev
     usb
     v4l
