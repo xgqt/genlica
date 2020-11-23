@@ -3,5 +3,9 @@
 # All
 */*                                     gles2 wayland xwayland
 
-# Individual
+# Wayland-based desktops
+dev-libs/weston                         editor examples fullscreen
+dev-libs/weston                         ivi wayland-compositor
+
+# Apps and libs
 media-libs/clutter                      egl
