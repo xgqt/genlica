@@ -1,0 +1,7 @@
+# XWayland
+
+# All
+*/*                                     gles2 wayland xwayland
+
+# Individual
+media-libs/clutter                      egl
