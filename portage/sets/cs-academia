@@ -1,6 +1,6 @@
 # Custom Set: Academia
 #       academia software
-#	c++, java, python, science tools, tex
+#       c++, java, python, science tools, tex
 #
 # To install:
 #       emerge -anv @cs-academia
@@ -38,6 +38,7 @@ dev-python/pylint
 dev-python/pytest
 dev-python/qtconsole
 dev-python/rope
+dev-python/wheel
 dev-python/sphinx
 dev-python/virtualenv
 dev-python/yapf
@@ -47,7 +48,6 @@ dev-texlive/texlive-plaingeneric
 dev-util/shellcheck
 dev-vcs/git
 media-gfx/librecad
-media-gfx/openscad
 media-gfx/simple-scan
 media-libs/opencv
 net-analyzer/nmap
