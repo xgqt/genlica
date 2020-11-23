@@ -10,20 +10,10 @@
 # To remove:
 #       emerge --deselect @cs-xfce
 #
-app-admin/system-config-printer
-app-arch/file-roller
-app-crypt/seahorse
 dev-util/catfish
-gnome-base/dconf-editor
-gnome-base/gnome-keyring
 gnome-extra/nm-applet
-media-sound/alsa-utils
-media-sound/paprefs
-media-sound/pavucontrol
-x11-apps/mesa-progs
 x11-apps/xfd
 x11-apps/xrandr
-x11-misc/qt5ct
 xfce-base/xfce4-meta
 xfce-extra/thunar-archive-plugin
 xfce-extra/xfce4-clipman-plugin

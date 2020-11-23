@@ -10,20 +10,11 @@
 # To remove:
 #       emerge --deselect @cs-efl
 #
-app-admin/system-config-printer
-app-arch/file-roller
-app-crypt/seahorse
 dev-libs/efl
-gnome-base/gnome-keyring
 media-gfx/ephoto
-media-sound/alsa-utils
-media-sound/paprefs
-media-sound/pavucontrol
 net-firewall/nftables
 net-misc/econnman
 sys-process/evisum
-x11-apps/mesa-progs
-x11-misc/qt5ct
 x11-terms/terminology
 x11-themes/e-flat-theme
 x11-themes/e-gtk-theme

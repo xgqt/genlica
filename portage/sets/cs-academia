@@ -11,7 +11,6 @@
 # To remove:
 #       emerge --deselect @cs-academia
 #
-app-admin/system-config-printer
 app-doc/doxygen
 app-editors/emacs
 app-emulation/libvirt
@@ -48,7 +47,6 @@ dev-texlive/texlive-plaingeneric
 dev-util/shellcheck
 dev-vcs/git
 media-gfx/librecad
-media-gfx/simple-scan
 media-libs/opencv
 net-analyzer/nmap
 net-analyzer/wireshark
