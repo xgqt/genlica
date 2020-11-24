@@ -22,7 +22,8 @@ main() {
     then
         stow_impl=pystow
     else
-        err_msg "There is no stow on the sytem! Exiting"
+        echo "There is no stow on the sytem! Exiting"
+        exit 1
     fi
 
     # Back up the old portage directory
