@@ -1,6 +1,5 @@
 # Firefox
 www-client/firefox                      bindist
-www-client/firefox                      custom-optimization custom-cflags
 www-client/firefox                      hardened hwaccel
 www-client/firefox                      -system-sqlite
 www-client/firefox                      -wifi

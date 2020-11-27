@@ -70,6 +70,8 @@ USE="
     alsa
     bluetooth
     branding
+    custom-cflags
+    custom-optimization
     dbus
     elogind
     firmware

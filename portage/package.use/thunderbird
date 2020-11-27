@@ -1,5 +1,4 @@
 # Thunderbird Mail Client
 mail-client/thunderbird                 bindist
-mail-client/thunderbird                 custom-cflags custom-optimization
 mail-client/thunderbird                 hardened
 mail-client/thunderbird                 -wifi
