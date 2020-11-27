@@ -1,0 +1,4 @@
+# Pascal related packages
+dev-lang/fpc                            doc ide source
+dev-lang/lazarus                        python
+dev-lang/lazarus                        -minimal
