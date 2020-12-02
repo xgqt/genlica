@@ -23,7 +23,7 @@ sci-libs/vtk                            rendering tcl tk
 sci-libs/vtk                            views xdmf2
 
 # Maxima
-sci-mathematics/maxima                  sbcl
+sci-mathematics/maxima                  X sbcl tk
 
 # Octave
 sci-mathematics/octave                  curl doc fftw
