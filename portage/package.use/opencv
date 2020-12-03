@@ -1,0 +1,3 @@
+# OpenCV - code for various computer vision problems
+media-libs/opencv                       contrib contribdnn ffmpeg
+media-libs/opencv                       -gstreamer -gtk3 -qt5
