@@ -4,13 +4,18 @@
 # Qt packages
 
 dev-libs/qtkeychain                     gnome-keyring
-dev-python/PyQt5                        webchannel
 dev-qt/qtmultimedia                     qml
 kde-frameworks/kauth                    policykit
 kde-frameworks/kitemmodels              qml
 kde-plasma/kdeplasma-addons             -comic
 kde-plasma/plasma-meta                  -crypt -desktop-portal -display-manager
 kde-plasma/plasma-meta                  -sddm -wallpapers
+
+# Qt Python packages
+dev-python/PyQt5                        declarative designer
+dev-python/PyQt5                        webchannel websockets
+dev-python/PyQt5                        -webkit
+dev-python/QtPy                         gui printsupport
 
 
 # Qt but not KDE ;)

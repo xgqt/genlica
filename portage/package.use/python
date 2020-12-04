@@ -7,11 +7,6 @@ dev-lang/python                         sqlite
 */*                                     PYTHON_TARGETS: -python2_7
 */*                                     PYTHON_TARGETS: -python3_6
 
-# Miscellaneous Python packages
-dev-python/PyQt5                        declarative designer
-dev-python/PyQt5                        -webkit
-dev-python/QtPy                         gui printsupport
-
 # Exclude python from those
 app-misc/pax-utils                      PYTHON_SINGLE_TARGET: -*
 dev-libs/libixion                       PYTHON_SINGLE_TARGET: -*
