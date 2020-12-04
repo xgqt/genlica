@@ -1,0 +1,5 @@
+# Blender - 3D Creation/Animation/Publishing System
+# FINALLY!!! Blender is back again! WOOOHOOO!!!
+media-gfx/blender                       cycles ffmpeg fftw
+media-gfx/blender                       man openimageio
+media-libs/opencolorio                  -opengl
