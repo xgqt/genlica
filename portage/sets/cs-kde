@@ -1,0 +1,16 @@
+# Custom Set: KDE
+#       plasma desktop
+#
+# To install:
+#       emerge -anv @cs-kde
+#
+# The set will be added to:
+#       /var/lib/portage/world_sets
+#
+# To remove:
+#       emerge --deselect @cs-kde
+#
+kde-apps/dolphin
+kde-apps/konsole
+kde-apps/kwalletmanager
+kde-plasma/plasma-meta
