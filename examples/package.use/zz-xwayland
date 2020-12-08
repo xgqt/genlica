@@ -5,7 +5,8 @@
 
 # Wayland-based desktops
 dev-libs/weston                         editor examples fullscreen
-dev-libs/weston                         ivi wayland-compositor
+dev-libs/weston                         ivi remoting rdp
+dev-libs/weston                         screen-sharing wayland-compositor
 
 # Apps and libs
 media-libs/clutter                      egl
