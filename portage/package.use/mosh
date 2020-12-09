@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Mobile Shell
 net-misc/mosh                           client examples mosh-hardening
 net-misc/mosh                           server ufw

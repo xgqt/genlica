@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # wxWidgets - cross-platform C++ GUI toolkit
 x11-libs/wxGTK                          gstreamer

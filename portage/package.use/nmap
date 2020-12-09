@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Nmap - network discovery and security auditing
 # Ndiff requires python2, now... (Pentoo has a port to python3)
 net-analyzer/nmap                       ncat nping -ndiff

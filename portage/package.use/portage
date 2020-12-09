@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Gentoo/Portage
 
 # It may be better to use USE="emacs" as global

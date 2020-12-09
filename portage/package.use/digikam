@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Digikam - photo management
 media-gfx/digikam                       marble mediaplayer
 media-gfx/digikam                       -panorama

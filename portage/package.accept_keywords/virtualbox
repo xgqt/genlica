@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Oracle Virtualbox
 app-emulation/virtualbox-additions
 app-emulation/virtualbox-modules

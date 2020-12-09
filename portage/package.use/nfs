@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Network File System
 net-nds/rpcbind                         warmstarts

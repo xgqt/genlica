@@ -1,1 +1,4 @@
+# -*- conf -*-
+
+
 net-misc/networkmanager                 -wext

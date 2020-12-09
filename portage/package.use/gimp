@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # GNU Image Manipulation Program
 media-gfx/gimp                          vector-icons webp
 media-libs/babl                         introspection

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Falkon QT Web Browser
 dev-qt/qtwebchannel                     qml
 sys-libs/zlib                           minizip

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Qemu chroot
 app-emulation/qemu                      static-user
 dev-libs/glib                           static-libs

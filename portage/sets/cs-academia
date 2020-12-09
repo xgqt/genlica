@@ -1,16 +1,20 @@
+# -*- conf -*-
+
+
 # Custom Set: Academia
 #       academia software
 #       c++, java, python, science tools, tex
-#
+
 # To install:
 #       emerge -anv @cs-academia
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-academia
-#
+
+
 app-doc/doxygen
 app-editors/emacs
 app-emulation/libvirt

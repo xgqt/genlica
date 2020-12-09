@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: Net
 #       network oriented programs
-#
+
 # To install:
 #       emerge -anv @cs-net
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-net
-#
+
+
 net-analyzer/iftop
 net-analyzer/iptraf-ng
 net-analyzer/mtr

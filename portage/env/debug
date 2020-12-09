@@ -1,5 +1,7 @@
+# -*- conf -*-
+
+
 # Debugging
 CFLAGS="-O1 -pipe -ggdb"
 CXXFLAGS="${CFLAGS}"
 FEATURES="${FEATURES} nostrip"
-

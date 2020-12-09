@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Okular - Universal document viewer based on KDE Frameworks
 kde-apps/okular                         djvu epub markdown

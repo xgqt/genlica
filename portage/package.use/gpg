@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # GPG-oriented packages
 app-crypt/gpgme                         python

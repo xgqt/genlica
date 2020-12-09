@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Packages probably have GTK or Qt interfaces available
 # also which are a lot more configurable and modern
 dev-lang/tk

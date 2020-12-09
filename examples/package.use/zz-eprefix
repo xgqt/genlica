@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Fixes for running this configuration
 # inside the gentoo prefix
 */* lcms tiff -pam -svg -elogind

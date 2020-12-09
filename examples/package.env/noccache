@@ -1,1 +1,4 @@
-www-client/palemoon noccache
+# -*- conf -*-
+
+
+www-client/palemoon                     noccache

@@ -1,8 +1,11 @@
-app-office/libreoffice	notmpfs
-dev-lang/ghc		notmpfs
-dev-lang/rust		notmpfs
-mail-client/thunderbird notmpfs
-sys-devel/gcc		notmpfs
-www-client/chromium	notmpfs
-www-client/firefox	notmpfs
-www-client/palemoon	notmpfs
+# -*- conf -*-
+
+
+app-office/libreoffice                  notmpfs
+dev-lang/ghc                            notmpfs
+dev-lang/rust                           notmpfs
+mail-client/thunderbird                 notmpfs
+sys-devel/gcc                           notmpfs
+www-client/chromium                     notmpfs
+www-client/firefox                      notmpfs
+www-client/palemoon                     notmpfs

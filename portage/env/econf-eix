@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Custom "./configure" options for app-portage/eix
 EXTRA_ECONF="--enable-security --enable-new-dialect --enable-strong-optimization"

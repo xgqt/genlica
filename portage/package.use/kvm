@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Kernel-based Virtual Machine
 app-emulation/libvirt                   macvtap qemu vepa virt-network
 app-emulation/qemu                      QEMU_SOFTMMU_TARGETS: aarch64 arm x86_64

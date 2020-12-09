@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Linux Utilities
 sys-apps/util-linux                     static-libs

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # The KeePass XC version - KeePass Cross-platform Community Edition
 app-admin/keepassxc                     browser
 app-admin/keepassxc                     -network

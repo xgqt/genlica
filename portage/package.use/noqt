@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Exclude QT5
 app-crypt/gpgme                         -qt5
 app-crypt/pinentry                      -qt5

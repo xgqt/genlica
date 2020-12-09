@@ -1,3 +1,5 @@
+# -*- conf -*-
+
+
 # You had one job...
 MAKEOPTS="--jobs=1"
-

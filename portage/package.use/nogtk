@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # USE="gtk" is often useless on those pkgs
 # or pulls in GTK2 dep
 app-crypt/pinentry                      -gtk

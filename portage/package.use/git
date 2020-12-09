@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # GIT
 dev-vcs/git                             gpg

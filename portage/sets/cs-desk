@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: Desktop Base
 #       core desktop programs
-#
+
 # To install:
 #       emerge -anv @cs-desk
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-desk
-#
+
+
 app-admin/system-config-printer
 app-arch/file-roller
 app-crypt/seahorse

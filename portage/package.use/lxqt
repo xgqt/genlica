@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # LXQT
 lxqt-base/lxqt-meta                     powermanagement terminal
 lxqt-base/lxqt-meta                     -about -display-manager -sddm

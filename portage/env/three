@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Optimize harder
 #
 # Pędzili 209 km/h.
@@ -9,4 +12,3 @@
 #
 CFLAGS="-march=native -O3 -pipe -flto=4"
 CXXFLAGS="${CFLAGS}"
-

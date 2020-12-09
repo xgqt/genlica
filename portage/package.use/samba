@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Mainly MS Office compatybility
 app-emulation/wine-vanilla              samba
 net-fs/samba                            addc json python winbind

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # XFCE Desktop Environment
 x11-themes/arc-theme                    xfce
 xfce-extra/tumbler                      ffmpeg

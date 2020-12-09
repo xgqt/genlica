@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # LibreOffice
 dev-db/postgresql                       kerberos
 app-office/libreoffice                  pdfimport postgres

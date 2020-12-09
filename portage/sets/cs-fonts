@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: Fonts
 #       font packages
-#
+
 # To install:
 #       emerge -anv @cs-fonts
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-fonts
-#
+
+
 media-fonts/cantarell
 media-fonts/droid
 media-fonts/fontawesome

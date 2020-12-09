@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: EFL
 #       EFL and Enlightenment apps
-#
+
 # To install:
 #       emerge -anv @cs-efl
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-efl
-#
+
+
 dev-libs/efl
 media-gfx/ephoto
 net-firewall/nftables

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Shared dependencies
 media-libs/plotutils                    png
 media-gfx/pstoedit                      imagemagick plotutils

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # W3M
 # Support displaying images
 www-client/w3m                          imlib

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Library for rendering web content
 dev-qt/qtwebengine                      jumbo-build widgets
 dev-qt/qtwebengine                      -bindist

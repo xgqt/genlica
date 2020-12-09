@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Rocket-Fast System For Log Processing
 app-admin/rsyslog                       gcrypt ssl openssl
 app-admin/rsyslog                       uuid usertools

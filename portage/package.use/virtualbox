@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Oracle VM VirtualBox
 app-emulation/virtualbox                qt5 python vnc

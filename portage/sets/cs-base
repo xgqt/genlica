@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: Base
 #       basic helpful programs
-#
+
 # To install:
 #       emerge -anv @cs-base
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-base
-#
+
+
 app-admin/rsyslog
 app-eselect/eselect-timezone
 app-eselect/eselect-vi

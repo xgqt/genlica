@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Pkgcore
 dev-util/pkgcheck
 sys-apps/pkgcore

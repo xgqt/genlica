@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Remmina - GTK+ RDP, SPICE, VNC, XDMCP and SSH client
 net-misc/remmina                        crypt gnome-keyring rdp
 net-misc/remmina                        spice ssh vnc

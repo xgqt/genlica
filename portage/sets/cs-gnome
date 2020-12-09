@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: GNOME
 #       a weird GNOME mix for OpenRC
-#
+
 # To install:
 #       emerge -anv @cs-gnome
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-gnome
-#
+
+
 app-admin/system-config-printer
 app-arch/file-roller
 gnome-base/dconf-editor

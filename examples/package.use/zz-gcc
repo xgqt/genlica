@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # The Great Compiler Collection
 sys-devel/gcc                           d go
 sys-devel/gcc                           objc objc++ objc-gc

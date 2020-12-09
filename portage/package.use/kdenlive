@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # KDE video editing suite
 media-libs/mlt                          kdenlive
 media-libs/mlt                          ffmpeg fftw frei0r

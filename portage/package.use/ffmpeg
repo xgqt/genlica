@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # FFmpeg - Complete solution to record/convert/stream audio and video
 media-video/ffmpeg                      cdio chromium cpudetection
 media-video/ffmpeg                      fontconfig libaom libass

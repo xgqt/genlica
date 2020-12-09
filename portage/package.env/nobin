@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Group/User/Virtual
 
 acct-group/*                            nobin

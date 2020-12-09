@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # The Versatile Commodore Emulator
 app-emulation/vice			ethernet ffmpeg headless
 app-emulation/vice			lame mpg123 pci

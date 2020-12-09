@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # The OpenRC init system
 sys-apps/openrc                         sysv-utils

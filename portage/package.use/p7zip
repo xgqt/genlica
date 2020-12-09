@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Pulled my i.e. winetricks
 # Remove wxwidgets because it uses a outdated version
 # yes, even the unstable version

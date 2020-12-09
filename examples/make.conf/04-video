@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Intel
 # VIDEO_CARDS="i965"
 

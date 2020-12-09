@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # GNU Emacs
 app-editors/emacs                       alsa sound dynamic-loading
 app-editors/emacs                       imagemagick games libxml2

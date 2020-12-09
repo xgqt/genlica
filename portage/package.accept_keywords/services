@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Server services
 www-apps/nextcloud

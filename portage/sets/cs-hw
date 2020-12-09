@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: Hw
 #       hardware oriented programs
-#
+
 # To install:
 #       emerge -anv @cs-hw
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-hw
-#
+
+
 app-admin/eclean-kernel
 app-portage/cpuid2cpuflags
 sys-apps/lm-sensors

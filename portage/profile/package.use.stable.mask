@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Unmask USE flags
 
 # Rust

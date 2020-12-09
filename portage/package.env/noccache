@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Doesn't work with ccache
 dev-java/openjdk                        noccache

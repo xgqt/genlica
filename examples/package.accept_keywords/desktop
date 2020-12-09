@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Desktop utils
 # that require X11
 app-arch/file-roller

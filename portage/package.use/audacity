@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Audacity - Free crossplatform audio editor
 media-sound/audacity                    ffmpeg vamp

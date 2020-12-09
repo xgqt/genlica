@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Perl - Larry Wall's Practical Extraction and Report Language
 dev-lang/perl                           ithreads

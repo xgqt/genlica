@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Firefox
 www-client/firefox                      bindist
 www-client/firefox                      hardened hwaccel

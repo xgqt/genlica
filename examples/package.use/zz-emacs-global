@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Add support for GNU Emacs
 
 */*			emacs

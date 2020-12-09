@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # System utils
 app-misc/dfshow
 app-misc/nnn

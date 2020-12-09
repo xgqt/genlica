@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 net-analyzer/arp-scan **
 net-analyzer/nikto
 net-analyzer/mtr

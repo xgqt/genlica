@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: XFCE
 #       my xfce desktop mix
-#
+
 # To install:
 #       emerge -anv @cs-xfce
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-xfce
-#
+
+
 dev-util/catfish
 gnome-extra/nm-applet
 x11-apps/xfd

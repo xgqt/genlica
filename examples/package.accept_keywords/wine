@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Wine Is Not an Emulator
 app-emulation/wine-desktop-common
 app-emulation/wine-gecko

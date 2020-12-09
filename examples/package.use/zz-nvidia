@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Nvidia GPU
 x11-drivers/nvidia-drivers	tools uvm
 dev-libs/libpthread-stubs	abi_x86_32

@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: Portage
 #       portage helpers
-#
+
 # To install:
 #       emerge -anv @cs-portage
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-portage
-#
+
+
 app-doc/eclass-manpages
 app-eselect/eselect-package-manager
 app-eselect/eselect-repository

@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Native build
 
 FEATURES="-buildpkg"

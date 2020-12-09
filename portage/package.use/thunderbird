@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # Thunderbird Mail Client
 mail-client/thunderbird                 bindist
 mail-client/thunderbird                 hardened

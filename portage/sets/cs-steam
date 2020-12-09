@@ -1,15 +1,19 @@
+# -*- conf -*-
+
+
 # Custom Set: Steam
 #       steam dependencies
-#
+
 # To install:
 #       emerge -anv @cs-steam
-#
+
 # The set will be added to:
 #       /var/lib/portage/world_sets
-#
+
 # To remove:
 #       emerge --deselect @cs-steam
-#
+
+
 dev-libs/glib:2
 dev-libs/libgcrypt
 dev-libs/nspr

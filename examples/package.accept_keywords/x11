@@ -1,3 +1,6 @@
+# -*- conf -*-
+
+
 # X11 components
 # also WMs
 x11-wm/awesome

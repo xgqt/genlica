@@ -1,2 +1,5 @@
+# -*- conf -*-
+
+
 # Inkscape - SVG based generic vector-drawing program
 media-gfx/inkscape                      imagemagick
