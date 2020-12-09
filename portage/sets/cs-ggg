@@ -16,6 +16,7 @@
 
 games-arcade/gnome-nibbles
 games-arcade/gnome-robots
+games-arcade/supertux
 games-board/gnome-chess
 games-board/gnome-mahjongg
 games-board/gnome-mines
@@ -26,4 +27,5 @@ games-puzzle/gnome-sudoku
 games-puzzle/gnome2048
 games-puzzle/quadrapassel
 games-puzzle/swell-foop
+games-strategy/colobot
 games-strategy/wesnoth
