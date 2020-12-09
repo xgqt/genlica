@@ -1,0 +1,29 @@
+# -*- conf -*-
+
+
+# Custom Set: G.G.G.
+#       Good Graphical Games
+
+# To install:
+#       emerge -anv @cs-ggg
+
+# The set will be added to:
+#       /var/lib/portage/world_sets
+
+# To remove:
+#       emerge --deselect @cs-ggg
+
+
+games-arcade/gnome-nibbles
+games-arcade/gnome-robots
+games-board/gnome-chess
+games-board/gnome-mahjongg
+games-board/gnome-mines
+games-board/gnuchess
+games-board/iagno
+games-fps/gzdoom
+games-puzzle/gnome-sudoku
+games-puzzle/gnome2048
+games-puzzle/quadrapassel
+games-puzzle/swell-foop
+games-strategy/wesnoth
