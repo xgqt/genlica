@@ -1,0 +1,9 @@
+# -*- conf -*-
+
+
+# MATE desktop environment
+app-arch/engrampa			caja magic
+app-text/atril				caja
+mate-extra/caja-extensions		image-converter
+mate-extra/caja-extensions              -cdr
+media-gfx/eom				imagemagick
