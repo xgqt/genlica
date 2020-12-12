@@ -6,8 +6,10 @@
 app-crypt/pinentry                      -gtk
 dev-java/icedtea-bin                    -gtk
 dev-libs/libdbusmenu                    -gtk
+games-strategy/freeciv                  -gtk
 media-gfx/graphviz                      -gtk
 media-libs/libcanberra                  -gtk
+media-sound/timidity++                  -gtk
 net-analyzer/mtr                        -gtk
 net-dialup/ppp                          -gtk
 sys-apps/lshw                           -gtk
