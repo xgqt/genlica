@@ -6,6 +6,7 @@ export PATH
 
 
 main() {
+    bash "${EPREFIX}/opt/genlica/update" -r
     if command -v emerge >/dev/null 2>&1
     then
         export ACCEPT_KEYWORDS="**"
@@ -13,10 +14,7 @@ main() {
         emerge -v -1 --autounmask --jobs=1 \
                --usepkg-exclude \* --quiet-build=n genlica
     fi
-    if [ -x "${EPREFIX}/opt/genlica/update" ]
-    then
-        bash "${EPREFIX}/opt/genlica/update"
-    fi
+    bash "${EPREFIX}/opt/genlica/update" -i
 }
 
 
