@@ -27,5 +27,7 @@ games-puzzle/gnome-sudoku
 games-puzzle/gnome2048
 games-puzzle/quadrapassel
 games-puzzle/swell-foop
+games-simulation/openttd
 games-strategy/colobot
+games-strategy/freeciv
 games-strategy/wesnoth
