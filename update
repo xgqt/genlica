@@ -9,40 +9,47 @@ export PATH
 
 
 main() {
-    # Auto-select the stow implementation
-    if command -v stow >/dev/null 2>&1
-    then
-        stow_impl=stow
-    elif command -v xstow >/dev/null 2>&1
-    then
-        stow_impl=xstow
-    elif command -v pystow >/dev/null 2>&1
-    then
-        stow_impl=pystow
-    else
-        echo "There is no stow on the sytem! Exiting"
-        exit 1
-    fi
-
     cd "$(dirname "${0}")" || exit 1
 
-    # First reset any changes
-    git reset --hard
-
-    # Then safely remove links
-    ${stow_impl} -D -v portage -t "${EPREFIX}/etc/portage"
-
-    # Pull
-    git pull
-
-    # After taht link again
-    ${stow_impl} -v portage -t "${EPREFIX}/etc/portage"
+    case ${1} in
+        -i | --install )
+            # Pull
+            git pull
+            # After that link again
+            ${stow_impl} -v portage -t "${EPREFIX}/etc/portage"
+            ;;
+        -r | --remove )
+            # First reset any changes
+            git reset --hard
+            # Then safely remove links
+            ${stow_impl} -D -v portage -t "${EPREFIX}/etc/portage"
+            ;;
+        * )
+            main -r
+            main -i
+            ;;
+    esac
 }
 
 
+# Auto-select the stow implementation
+if command -v stow >/dev/null 2>&1
+then
+    stow_impl=stow
+elif command -v xstow >/dev/null 2>&1
+then
+    stow_impl=xstow
+elif command -v pystow >/dev/null 2>&1
+then
+    stow_impl=pystow
+else
+    echo "There is no stow on the sytem! Exiting"
+    exit 1
+fi
+
 if [ "$(whoami)" != root ] && [ -z "${EPREFIX}" ]
 then
-    sudo "${0}"
+    sudo "${0}" "${@}"
 else
-    main
+    main "${@}"
 fi
