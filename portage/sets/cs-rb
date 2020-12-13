@@ -1,0 +1,39 @@
+# -*- conf -*-
+
+
+# Custom Set: Ruby
+#       packages for ruby developement
+
+# To install:
+#       emerge -anv @cs-rb
+
+# The set will be added to:
+#       /var/lib/portage/world_sets
+
+# To remove:
+#       emerge --deselect @cs-rb
+
+# To purge ruby (the packages in this set):
+#    	emerge --unmerge @cs-rb
+
+
+app-eselect/eselect-ruby
+dev-lang/ruby
+dev-ruby/builder
+dev-ruby/bundler
+dev-ruby/did_you_mean
+dev-ruby/json
+dev-ruby/kpeg
+dev-ruby/minitest
+dev-ruby/net-telnet
+dev-ruby/power_assert
+dev-ruby/racc
+dev-ruby/rake
+dev-ruby/rdoc
+dev-ruby/rubygems
+dev-ruby/test-unit
+dev-ruby/xmlrpc
+dev-util/colm
+dev-util/ragel
+virtual/ruby-ssl
+virtual/rubygems
