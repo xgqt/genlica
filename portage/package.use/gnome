@@ -4,7 +4,6 @@
 # GNOME Components
 
 # Needed
-app-crypt/pinentry                      gnome-keyring
 media-libs/gst-plugins-base             theora
 media-libs/libmediaart                  -qt5
 media-libs/libmediaart                  gtk introspection

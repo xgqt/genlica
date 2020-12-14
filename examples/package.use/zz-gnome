@@ -1,0 +1,7 @@
+# -*- conf -*-
+
+
+# GNOME Components
+
+# Needed
+app-crypt/pinentry                      gnome-keyring
