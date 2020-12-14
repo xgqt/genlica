@@ -51,7 +51,7 @@ main() {
     # Select the profile
     if [ -z "${EPREFIX}" ]
     then
-        eselect profile set default/linux/amd64/17.1/desktop
+        eselect profile set default/linux/amd64/17.1
     fi
 
     # Create basic addition to 99-main

@@ -10,6 +10,7 @@ main() {
     if command -v emerge >/dev/null 2>&1
     then
         export ACCEPT_KEYWORDS="**"
+        export ACCEPT_LICENSE="*"
         export FEATURES="-getbinpkg"
         emerge -v -1 --autounmask --jobs=1 \
                --usepkg-exclude \* --quiet-build=n genlica
