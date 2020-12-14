@@ -56,8 +56,5 @@ net-analyzer/nmap
 net-analyzer/wireshark
 sci-mathematics/maxima
 sci-mathematics/octave
-sys-apps/util-linux
-sys-devel/gcc
 sys-devel/gdb
 virtual/awk
-virtual/wine
