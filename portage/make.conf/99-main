@@ -66,7 +66,6 @@ USE="
     -perl
     -qt4
     -samba
-    -systemd
     -tk
     -tracker
     -zeroconf
@@ -76,7 +75,6 @@ USE="
     custom-cflags
     custom-optimization
     dbus
-    elogind
     firmware
     git
     gpg
