@@ -1,0 +1,7 @@
+# -*- conf -*-
+
+
+# Enable tests for specific packages only
+
+
+FEATURES="${FEATURES} test"
