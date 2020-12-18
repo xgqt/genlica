@@ -14,6 +14,8 @@ app-text/evince                         -spell
 dev-util/glade                          -webkit
 dev-util/glade                          python
 media-gfx/gthumb                        -cdr
+net-libs/webkit-gtk                     -geolocation
+net-libs/webkit-gtk                     gstreamer
 net-misc/vinagre                        -telepathy
 net-misc/vinagre                        ssh spice
 
