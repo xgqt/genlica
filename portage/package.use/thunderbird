@@ -3,5 +3,5 @@
 
 # Thunderbird Mail Client
 mail-client/thunderbird                 bindist
-mail-client/thunderbird                 hardened
+mail-client/thunderbird                 hardened hwaccel
 mail-client/thunderbird                 -wifi
