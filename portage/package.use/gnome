@@ -36,3 +36,6 @@ gnome-base/gnome-control-center         networkmanager
 gnome-base/gnome-settings-daemon        colord modemmanager networkmanager
 gnome-base/gnome-shell                  -browser-extension
 gnome-extra/evolution-data-server       -berkdb -weather
+media-plugins/gst-plugins-meta		ffmpeg lame libass
+media-plugins/gst-plugins-meta		opus taglib theora
+media-plugins/gst-plugins-meta		vpx
