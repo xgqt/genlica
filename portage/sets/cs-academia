@@ -21,7 +21,6 @@ app-emulation/libvirt
 app-emulation/qemu
 app-emulation/virt-manager
 app-emulation/virt-viewer
-app-emulation/winetricks
 app-office/libreoffice
 app-office/texmaker
 app-text/dvipng
