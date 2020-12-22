@@ -27,3 +27,5 @@ media-sound/pavucontrol
 sci-calculators/galculator
 x11-apps/mesa-progs
 x11-misc/xsensors
+x11-themes/papirus-icon-theme
+x11-themes/xcursor-themes
