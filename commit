@@ -2,6 +2,7 @@
 
 
 trap 'exit 128' INT
+set -e
 export PATH
 
 
@@ -17,7 +18,7 @@ then
     pkgs="$(qlist -CIev portage) $(qlist -CIev repoman) $(qlist -CIev pkgcore)"
 fi
 
-cd "$(portageq get_repo_path / gentoo)" >/dev/null || exit 1
+cd "$(portageq get_repo_path / gentoo)"
 
 _head="$(git rev-parse HEAD)"
 if [ -n "${_head}" ]
@@ -30,24 +31,25 @@ then
     timestamp="Timestamp of repository gentoo: $(cat metadata/timestamp.chk)"
 fi
 
-cd - >/dev/null || exit 1
+cd - >/dev/null
 
 
 msg="${*}
 
 ${pkgs}
 ${head}
-${timestamp}
-"
+${timestamp}"
 
 
 echo "Message:
 '''
 ${msg}
-'''
-"
+'''"
 
 
-git add .
-git commit -m "${msg}"
-git push
+git add --verbose .
+
+git commit --signoff --verbose --message="${msg}"
+
+git pull --verbose
+git push --verbose
