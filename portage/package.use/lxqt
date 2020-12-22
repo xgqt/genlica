@@ -1,9 +1,46 @@
 # -*- conf -*-
 
 
-# LXQT
-lxqt-base/lxqt-meta                     powermanagement terminal
-lxqt-base/lxqt-meta                     -about -display-manager -sddm
-lxqt-base/lxqt-meta                     -trash
-lxqt-base/lxqt-config                   -monitor
-lxqt-base/lxqt-panel                    cpuload networkmonitor statusnotifier
+# LXQt - successor to LXDE; this time built using Qt
+
+# This configutartion removes apps that come with LXQT
+# install your own choice of those
+
+
+# LXQt Desktop
+
+# good to have
+lxqt-base/lxqt-meta                     powermanagement
+
+# not minimal puls in x11-wm/openbox & x11-misc/obconf-qt
+lxqt-base/lxqt-meta			-minimal
+
+# bring your own
+lxqt-base/lxqt-meta			-about -admin -archiver
+lxqt-base/lxqt-meta			-display-manager -filemanager -lximage
+lxqt-base/lxqt-meta			-policykit -processviewer -screenshot
+lxqt-base/lxqt-meta			-sddm -ssh-askpass -sudo
+lxqt-base/lxqt-meta			-terminal -trash
+
+# pulls in kde-frameworks/solid
+lxqt-base/lxqt-panel			-mount
+
+# those are nice (min deps)
+lxqt-base/lxqt-panel			colorpicker cpuload desktopswitch
+lxqt-base/lxqt-panel			directorymenu dom kbindicator
+lxqt-base/lxqt-panel			mainmenu networkmonitor quicklaunch
+lxqt-base/lxqt-panel			showdesktop spacer statusnotifier
+lxqt-base/lxqt-panel			sysstat taskbar tray
+lxqt-base/lxqt-panel			volume worldclock
+
+
+# Minimal Openbox
+
+# unnecessary
+x11-wm/openbox				-nls -startup-notification -xdg
+
+# we have images in LXQT's menus
+x11-wm/openbox				-svg -imlib
+
+# this shouldn't be a problem (no deps)
+x11-wm/openbox				session
