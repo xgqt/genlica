@@ -35,14 +35,16 @@ dev-python/black
 dev-python/flake8
 dev-python/jupyter
 dev-python/nose
+dev-python/pandas
 dev-python/pip
 dev-python/pylint
 dev-python/pytest
 dev-python/qtconsole
 dev-python/rope
-dev-python/wheel
+dev-python/scipy
 dev-python/sphinx
 dev-python/virtualenv
+dev-python/wheel
 dev-python/yapf
 dev-texlive/texlive-latexextra
 dev-texlive/texlive-luatex

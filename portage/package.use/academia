@@ -2,10 +2,13 @@
 
 
 # Shared dependencies
-media-libs/plotutils                    png
-media-gfx/pstoedit                      imagemagick plotutils
 dev-libs/boost                          context lzma python
 dev-libs/boost                          tools
+dev-python/numpy                        lapack
+dev-python/pandas                       -minimal
+dev-python/pandas                       full-support
+media-gfx/pstoedit                      imagemagick plotutils
+media-libs/plotutils                    png
 
 # Gnuplot
 sci-visualization/gnuplot               bitmap latex
