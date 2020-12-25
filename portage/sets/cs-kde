@@ -18,5 +18,6 @@ kde-apps/dolphin
 kde-apps/filelight
 kde-apps/konsole
 kde-apps/kwalletmanager
+kde-plasma/breeze-gtk
 kde-plasma/plasma-meta
 media-gfx/flameshot
