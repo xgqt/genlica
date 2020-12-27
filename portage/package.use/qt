@@ -6,7 +6,6 @@
 
 # Qt packages
 
-dev-libs/qtkeychain                     gnome-keyring
 dev-qt/qtmultimedia                     qml
 kde-frameworks/kauth                    policykit
 kde-frameworks/kitemmodels              qml

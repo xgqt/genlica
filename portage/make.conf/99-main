@@ -58,6 +58,7 @@ USE="
     -bindist
     -consolekit
     -gnome
+    -gnome-keyring
     -gnome-online-accounts
     -gpm
     -gstreamer

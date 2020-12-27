@@ -1,7 +1,9 @@
 # -*- conf -*-
 
 
-# GNOME Components
+# Copy this to /etc/portage/package.use/zz-gnome
+# if you wnat to use gnome-keyring
 
-# Needed
 app-crypt/pinentry                      gnome-keyring
+dev-libs/qtkeychain                     gnome-keyring
+net-misc/remmina                        gnome-keyring

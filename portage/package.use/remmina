@@ -2,7 +2,8 @@
 
 
 # Remmina - GTK+ RDP, SPICE, VNC, XDMCP and SSH client
-net-misc/remmina                        crypt gnome-keyring rdp
+net-misc/remmina                        -gnome-keyring
+net-misc/remmina                        crypt rdp
 net-misc/remmina                        spice ssh vnc
 net-misc/freerdp                        gstreamer openh264 server
 net-libs/libvncserver                   gcrypt

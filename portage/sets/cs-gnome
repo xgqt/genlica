@@ -19,7 +19,6 @@ app-arch/file-roller
 gnome-base/dconf-editor
 gnome-base/gnome-control-center
 gnome-base/gnome-core-libs
-gnome-base/gnome-keyring
 gnome-base/gnome-session
 gnome-base/gnome-settings-daemon
 gnome-base/gnome-shell
@@ -29,5 +28,4 @@ media-sound/alsa-utils
 media-sound/paprefs
 media-sound/pavucontrol
 x11-apps/mesa-progs
-x11-misc/qt5ct
 x11-wm/mutter
