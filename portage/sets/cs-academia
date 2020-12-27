@@ -50,7 +50,7 @@ dev-texlive/texlive-latexextra
 dev-texlive/texlive-luatex
 dev-texlive/texlive-plaingeneric
 dev-util/shellcheck
-dev-vcs/git
+dev-vcs/git-lfs
 media-gfx/librecad
 media-libs/opencv
 net-analyzer/nmap
