@@ -16,6 +16,7 @@
 
 app-admin/eclean-kernel
 app-portage/cpuid2cpuflags
+sys-apps/i2c-tools
 sys-apps/lm-sensors
 sys-apps/lshw
 sys-apps/pciutils
