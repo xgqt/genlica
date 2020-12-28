@@ -16,6 +16,7 @@
 
 app-admin/system-config-printer
 app-arch/file-roller
+app-crypt/seahorse
 gnome-base/dconf-editor
 gnome-base/gnome-control-center
 gnome-base/gnome-core-libs
