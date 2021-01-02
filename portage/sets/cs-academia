@@ -57,5 +57,6 @@ net-analyzer/nmap
 net-analyzer/wireshark
 sci-mathematics/maxima
 sci-mathematics/octave
+sys-devel/clang
 sys-devel/gdb
 virtual/awk
