@@ -31,7 +31,7 @@ fi
 
 if command -v qlist >/dev/null
 then
-    pkgs="$(qlist -CIev portage) $(qlist -CIev repoman) $(qlist -CIev pkgcore)"
+    pkgs="$(qlist -CIev 'sys-apps/portage') $(qlist -CIev 'sys-apps/pkgcore')"
 fi
 
 cd "$(portageq get_repo_path / gentoo)"
