@@ -23,3 +23,6 @@ games-util/*
 
 # And some emulators
 app-emulation/vice
+
+# And scripting languages
+dev-libs/angelscript
