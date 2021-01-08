@@ -19,6 +19,9 @@ net-libs/webkit-gtk                     gstreamer
 net-misc/vinagre                        -telepathy
 net-misc/vinagre                        ssh spice
 
+# Disable dependencies that pull in SAMBA
+gnome-base/gnome-control-center         -cups
+
 # Disable dependencies that pull in WebkitGTK
 gnome-base/nautilus                     -gnome -previewer
 
