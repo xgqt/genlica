@@ -18,6 +18,7 @@ app-admin/keepassxc
 app-admin/system-config-printer
 app-arch/file-roller
 app-text/mupdf
+dev-util/geany
 gnome-base/dconf-editor
 media-gfx/simple-scan
 media-sound/alsa-utils
