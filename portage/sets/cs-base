@@ -15,7 +15,6 @@
 
 
 app-admin/rsyslog
-sys-process/audit
 app-eselect/eselect-timezone
 app-eselect/eselect-vi
 app-misc/ranger
@@ -28,12 +27,14 @@ dev-util/ccache
 dev-util/strace
 dev-util/trace-cmd
 sys-block/parted
+sys-devel/crossdev
 sys-devel/gdb
 sys-fs/cryptsetup
 sys-fs/dosfstools
 sys-fs/lvm2
 sys-fs/mdadm
 sys-fs/ncdu
+sys-process/audit
 sys-process/cronie
 sys-process/htop
 sys-process/lsof
