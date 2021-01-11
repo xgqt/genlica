@@ -1,0 +1,13 @@
+# -*- conf -*-
+
+
+# Cinnamon
+
+# Dependencies
+dev-libs/libdbusmenu                    gtk3
+x11-libs/xapps                          introspection
+
+# Main components
+gnome-extra/cinnamon-control-center     -colord
+gnome-extra/cinnamon-settings-daemon    -colord
+gnome-extra/nemo                        exif
