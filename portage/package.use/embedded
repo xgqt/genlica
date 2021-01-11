@@ -1,8 +1,10 @@
 # -*- conf -*-
 
 
-# Arduino development
+# Embedded development
 
+
+# Arduino development
 
 # Dependencies
 dev-util/astyle                         java
