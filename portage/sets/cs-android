@@ -1,0 +1,21 @@
+# -*- conf -*-
+
+
+# Custom Set: Android
+#       base for Android development
+
+# To install:
+#       emerge -anv @cs-android
+
+# The set will be added to:
+#       /var/lib/portage/world_sets
+
+# To remove:
+#       emerge --deselect @cs-android
+
+
+app-emulation/qemu
+dev-java/openjdk
+dev-util/android-studio
+dev-util/android-tools
+sys-fs/udisks:2
