@@ -1,0 +1,7 @@
+# -*- conf -*-
+
+
+# SDL
+
+# SDL 2
+media-libs/sdl2-mixer                   midi timidity
