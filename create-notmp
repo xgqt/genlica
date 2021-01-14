@@ -16,6 +16,9 @@
 # You should have received a copy of the GNU General Public License
 # along with genlica.  If not, see <https://www.gnu.org/licenses/>.
 
+# Copyright (c) 2019-2021, XGQT
+# Licensed under the GNU GPL v3 License
+
 # Create /var/notmp as alternative
 # to merging on /var/tmp
 
