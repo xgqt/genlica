@@ -1,0 +1,18 @@
+# -*- conf -*-
+
+
+# Curl
+
+
+# Main
+
+# Common/No dependencies
+net-misc/curl                           gopher http2 idn
+net-misc/curl                           samba ssh ssl
+net-misc/curl                           telnet zstd
+
+
+# Dependencies
+
+# USE=cxx pulls in boost
+net-libs/nghttp2                        -cxx
