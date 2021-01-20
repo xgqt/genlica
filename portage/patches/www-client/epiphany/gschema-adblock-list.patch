@@ -1,0 +1,12 @@
+index c272268..00eecc1 100644
+--- a/data/org.gnome.epiphany.gschema.xml
++++ b/data/org.gnome.epiphany.gschema.xml
+@@ -52,7 +52,7 @@
+                         <description>When this option is set to true, tabs will not start loading until the user switches to them, upon session restore.</description>
+                 </key>
+                 <key type="as" name="content-filters">
+-                        <default>['https://easylist-downloads.adblockplus.org/easylist_min_content_blocker.json']</default>
++                        <default>['']</default>
+                         <summary>List of adblock filters</summary>
+                         <description>List of URLs with content filtering rules in JSON format to be used by the ad blocker.</description>
+                 </key>
