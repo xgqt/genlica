@@ -27,7 +27,6 @@ app-text/dvipng
 app-text/pandoc
 app-text/pdfjam
 dev-cpp/gtest
-dev-haskell/pandoc-citeproc
 dev-java/openjdk
 dev-lang/R
 dev-python/autopep8
