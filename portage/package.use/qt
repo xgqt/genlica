@@ -20,13 +20,14 @@ dev-python/PyQt5                        -webkit
 dev-python/QtPy                         gui printsupport
 
 
-# Qt but not KDE ;)
+# Qt but mostly not KDE
 
 # Remove KDE from KDE
 */*                                     -dolphin -handbook -kaccounts
 */*                                     -kde -kwallet -semantic-desktop
 kde-apps/*                              -doc -man -policykit
 kde-frameworks/*                        -doc -man -policykit
+kde-frameworks/prison                   qml
 
 # Unnecessary
 kde-frameworks/kwallet                  -gpg
