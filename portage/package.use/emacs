@@ -2,7 +2,8 @@
 
 
 # GNU Emacs
-app-editors/emacs                       alsa athena dynamic-loading
+app-editors/emacs                       -gtk -gtk2
+app-editors/emacs                       alsa dynamic-loading
 app-editors/emacs                       games imagemagick libxml2
 app-editors/emacs                       sound
 app-emacs/emacs-common-gentoo           games
