@@ -26,3 +26,6 @@ app-emulation/vice
 
 # And scripting languages
 dev-libs/angelscript
+
+# And some other libraries
+media-libs/zmusic
