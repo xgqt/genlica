@@ -1,6 +1,14 @@
 # -*- conf -*-
 
 
+# GTK
+
+# Enable the Broadway backend
+x11-libs/gtk+                           broadway
+
+
+# Remove GTK2 dependency
+
 # USE="gtk" is often useless on those pkgs
 # or pulls in GTK2 dep
 app-crypt/pinentry                      -gtk
@@ -15,8 +23,3 @@ net-analyzer/mtr                        -gtk
 net-dialup/ppp                          -gtk
 sys-apps/lshw                           -gtk
 sys-auth/polkit                         -gtk
-
-# USE="-gtk" breaks those pkgs:
-# (or you get no GUI)
-# x11-drivers/nvidia-drivers            -gtk
-# net-irc/hexchat                       -gtk
