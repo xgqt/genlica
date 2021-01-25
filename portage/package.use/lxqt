@@ -22,16 +22,13 @@ lxqt-base/lxqt-meta			-policykit -processviewer -screenshot
 lxqt-base/lxqt-meta			-sddm -ssh-askpass -sudo
 lxqt-base/lxqt-meta			-terminal -trash
 
-# pulls in kde-frameworks/solid
-lxqt-base/lxqt-panel			-mount
-
 # those are nice (min deps)
 lxqt-base/lxqt-panel			colorpicker cpuload desktopswitch
 lxqt-base/lxqt-panel			directorymenu dom kbindicator
-lxqt-base/lxqt-panel			mainmenu networkmonitor quicklaunch
-lxqt-base/lxqt-panel			showdesktop spacer statusnotifier
-lxqt-base/lxqt-panel			sysstat taskbar tray
-lxqt-base/lxqt-panel			volume worldclock
+lxqt-base/lxqt-panel			mainmenu mount networkmonitor
+lxqt-base/lxqt-panel			quicklaunch showdesktop spacer
+lxqt-base/lxqt-panel			statusnotifier sysstat taskbar
+lxqt-base/lxqt-panel			tray volume worldclock
 
 
 # Minimal Openbox
