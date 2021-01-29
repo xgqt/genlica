@@ -29,6 +29,7 @@ kde-apps/*                              -doc -man -policykit
 kde-frameworks/*                        -doc -man -policykit
 
 # Small dependencies
+kde-apps/dolphin                        activities
 kde-apps/kio-extras                     activities nfs taglib
 kde-frameworks/prison                   qml
 
