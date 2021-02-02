@@ -6,3 +6,16 @@
 
 # LibreCAD
 media-gfx/librecad                      3d tools
+
+# KiCAD
+app-doc/kicad-doc                       L10N: -* en
+app-doc/kicad-doc                       html pdf
+app-text/texlive-core                   xetex
+sci-electronics/kicad                   doc github
+sci-electronics/kicad-meta              doc
+sci-libs/hdf5                           cxx unsupported
+sci-libs/oce                            vtk
+sci-libs/vtk                            boost doc ffmpeg
+sci-libs/vtk                            imaging python qt5
+sci-libs/vtk                            rendering tcl tk
+sci-libs/vtk                            views xdmf2
