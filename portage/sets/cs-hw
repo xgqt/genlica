@@ -25,4 +25,5 @@ sys-apps/smartmontools
 sys-apps/usbutils
 sys-fs/sysfsutils
 sys-kernel/genkernel
+sys-kernel/linux-firmware
 sys-power/powertop
