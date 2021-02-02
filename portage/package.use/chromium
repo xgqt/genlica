@@ -1,0 +1,21 @@
+# -*- conf -*-
+
+
+# Chromium Web Browser
+
+# Dependencies
+net-libs/nodejs                         inspector
+
+# Chromium
+www-client/chromium                     -component-build
+www-client/chromium                     -custom-cflags
+www-client/chromium                     -headless
+www-client/chromium                     -js-type-check
+www-client/chromium                     -kerberos
+www-client/chromium                     -official
+www-client/chromium                     -screencast
+www-client/chromium                     -suid
+www-client/chromium                     -tcmalloc
+www-client/chromium                     -widevine
+www-client/chromium                     hangouts
+www-client/chromium                     proprietary-codecs
