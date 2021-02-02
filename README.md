@@ -31,7 +31,7 @@ Those are the setting i find sane for a general use high performance gentoo work
 
 # Installation
 
-# Git
+## Git
 
 As root:
 
@@ -44,7 +44,7 @@ bash install
 ```
 
 
-# Gentoo
+## Gentoo
 
 As root:
 
@@ -55,3 +55,8 @@ emaint sync -r myov
 emerge -av --autounmask app-portage/genlica
 ```
 
+
+# Explanation
+
+The [test.sh](./test.sh) script has a .sh extension to make it stand out,
+also it will be removed while installing [genlica](https://gitlab.com/xgqt/genlica) from [myov](https://gitlab.com/xgqt/myov) overlay.
