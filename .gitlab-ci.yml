@@ -16,30 +16,43 @@
 # You should have received a copy of the GNU General Public License
 # along with genlica.  If not, see <https://www.gnu.org/licenses/>.
 
-# Copyright (c) 2019-2021, XGQT
+# Copyright (c) 2019-2021, Maciej Barć <xgqt@protonmail.com>
 # Licensed under the GNU GPL v3 License
 
 
 image: gentoo/stage3-amd64:latest
 
+
+variables:
+  EMERGE_DEFAULT_OPTS: " --jobs=10 --keep-going"
+  FEATURES: "getbinpkg"
+  GIT_SUBMODULE_STRATEGY: recursive
+  MAKEOPTS: "--jobs=10"
+  PORTAGE_BINHOST: "https://xgqt.gitlab.io/gentoo-mini-mirror/binpkgs"
+  TERM: "dumb"
+  USE: "-perl"
+
+
 stages:
   - test
   - install
+
 
 before_script:
   - mkdir /var/db/repos/gentoo
   - emerge-webrsync
 
+
 test:
   stage: test
   script:
     - emerge -q dev-util/shellcheck-bin
-    - bash test.sh
+    - bash ./test.sh
 
 install:
   stage: install
   script:
     - emerge -q app-portage/cpuid2cpuflags
     - emerge -q app-admin/stow
-    - bash install
+    - bash ./install
     - emerge -q bash
