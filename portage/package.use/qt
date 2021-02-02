@@ -19,6 +19,10 @@ dev-python/PyQt5                        webchannel websockets
 dev-python/PyQt5                        -webkit
 dev-python/QtPy                         gui printsupport
 
+# Qtwebengine - library for rendering web content
+dev-qt/qtwebengine                      jumbo-build widgets
+dev-qt/qtwebengine                      -bindist
+
 
 # Qt but mostly not KDE
 
