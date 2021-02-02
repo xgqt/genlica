@@ -13,31 +13,31 @@
 lxqt-base/lxqt-meta                     powermanagement
 
 # not minimal puls in x11-wm/openbox & x11-misc/obconf-qt
-lxqt-base/lxqt-meta			-minimal
+lxqt-base/lxqt-meta                     -minimal
 
 # bring your own
-lxqt-base/lxqt-meta			-about -admin -archiver
-lxqt-base/lxqt-meta			-display-manager -filemanager -lximage
-lxqt-base/lxqt-meta			-policykit -processviewer -screenshot
-lxqt-base/lxqt-meta			-sddm -ssh-askpass -sudo
-lxqt-base/lxqt-meta			-terminal -trash
+lxqt-base/lxqt-meta                     -about -admin -archiver
+lxqt-base/lxqt-meta                     -display-manager -filemanager -lximage
+lxqt-base/lxqt-meta                     -policykit -processviewer -screenshot
+lxqt-base/lxqt-meta                     -sddm -ssh-askpass -sudo
+lxqt-base/lxqt-meta                     -terminal -trash
 
 # those are nice (min deps)
-lxqt-base/lxqt-panel			colorpicker cpuload desktopswitch
-lxqt-base/lxqt-panel			directorymenu dom kbindicator
-lxqt-base/lxqt-panel			mainmenu mount networkmonitor
-lxqt-base/lxqt-panel			quicklaunch showdesktop spacer
-lxqt-base/lxqt-panel			statusnotifier sysstat taskbar
-lxqt-base/lxqt-panel			tray volume worldclock
+lxqt-base/lxqt-panel                    colorpicker cpuload desktopswitch
+lxqt-base/lxqt-panel                    directorymenu dom kbindicator
+lxqt-base/lxqt-panel                    mainmenu mount networkmonitor
+lxqt-base/lxqt-panel                    quicklaunch showdesktop spacer
+lxqt-base/lxqt-panel                    statusnotifier sysstat taskbar
+lxqt-base/lxqt-panel                    tray volume worldclock
 
 
 # Minimal Openbox
 
 # unnecessary
-x11-wm/openbox				-nls -startup-notification -xdg
+x11-wm/openbox                          -nls -startup-notification -xdg
 
 # we have images in LXQT's menus
-x11-wm/openbox				-svg -imlib
+x11-wm/openbox                          -svg -imlib
 
 # this shouldn't be a problem (no deps)
-x11-wm/openbox				session
+x11-wm/openbox                          session
