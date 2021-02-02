@@ -58,5 +58,7 @@ emerge -av --autounmask app-portage/genlica
 
 # Explanation
 
+## test.sh
+
 The [test.sh](./test.sh) script has a .sh extension to make it stand out,
 also it will be removed while installing [genlica](https://gitlab.com/xgqt/genlica) from [myov](https://gitlab.com/xgqt/myov) overlay.
