@@ -16,6 +16,7 @@
 
 kde-apps/dolphin
 kde-apps/filelight
+kde-apps/kdialog
 kde-apps/konsole
 kde-apps/kwalletmanager
 kde-plasma/breeze-gtk
