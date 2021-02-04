@@ -124,6 +124,7 @@ USE="
     udev
     usb
     v4l
+    vaapi
     vulkan
     wifi
     xft
