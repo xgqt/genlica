@@ -19,7 +19,19 @@ PORTAGE_WORKDIR_MODE="0750"
 # MAKEOPTS="--jobs=4 --load-average=4"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --keep-going --with-bdeps=y"
 
-FEATURES="${FEATURES} noinfo"
+FEATURES="
+    ${FEATURES}
+    -binpkg-logs
+    cgroup
+    getbinpkg
+    ipc-sandbox
+    mount-sandbox
+    network-sandbox
+    noinfo
+    parallel-fetch
+    pid-sandbox
+    usersandbox
+"
 # * Whether you need ccache
 # FEATURES="${FEATURES} ccache"
 # CCACHE_DIR="${EPREFIX}/var/cache/ccache"
