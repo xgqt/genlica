@@ -21,4 +21,5 @@ kde-apps/konsole
 kde-apps/kwalletmanager
 kde-plasma/breeze-gtk
 kde-plasma/plasma-meta
+kde-plasma/xdg-desktop-portal-kde
 media-gfx/flameshot
