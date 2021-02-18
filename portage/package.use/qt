@@ -23,6 +23,18 @@ dev-python/QtPy                         gui printsupport
 dev-qt/qtwebengine                      jumbo-build widgets
 dev-qt/qtwebengine                      -bindist
 
+# Exclude QT5
+app-crypt/gpgme                         -qt5
+app-crypt/pinentry                      -qt5
+app-doc/doxygen                         -qt5
+app-text/highlight                      -qt5
+dev-util/cmake                          -qt5
+media-libs/openal                       -qt5
+media-libs/opencv                       -qt5 -opengl
+media-sound/pulseaudio                  -qt5
+net-p2p/transmission                    -qt5
+net-wireless/wpa_supplicant             -qt5
+
 
 # Qt but mostly not KDE
 
