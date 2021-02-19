@@ -29,7 +29,9 @@ FEATURES="
     noinfo
     parallel-fetch
     pid-sandbox
+    userpriv
     usersandbox
+    usersync
 "
 # * Whether you need ccache
 # FEATURES="${FEATURES} ccache"
