@@ -1,7 +1,9 @@
 # -*- conf -*-
 
 
-# Pulled my i.e. winetricks
 # Remove wxwidgets because it uses a outdated version
-# yes, even the unstable version
 app-arch/p7zip                          -kde -wxwidgets
+
+# pch - "faster compilation at the expense of disk space and memory"
+# still compiles pretty fast
+app-arch/p7zip                          -pch
