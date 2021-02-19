@@ -23,7 +23,6 @@ FEATURES="
     ${FEATURES}
     -binpkg-logs
     cgroup
-    getbinpkg
     ipc-sandbox
     mount-sandbox
     network-sandbox
