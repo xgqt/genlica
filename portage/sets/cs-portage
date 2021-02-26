@@ -18,6 +18,7 @@ app-doc/eclass-manpages
 app-eselect/eselect-package-manager
 app-eselect/eselect-repository
 app-portage/eix
+app-portage/elogv
 app-portage/gentoolkit
 app-portage/portage-utils
 app-portage/repoman
