@@ -15,6 +15,11 @@ LC_MESSAGES=C
 PORTAGE_NICENESS="10"
 PORTAGE_WORKDIR_MODE="0750"
 
+# Emerge logging
+PORTAGE_LOGDIR="${EPREFIX}/var/log/portage"
+PORTAGE_ELOG_CLASSES="warn error log"
+PORTAGE_ELOG_SYSTEM="save"
+
 # * Number of cores
 # MAKEOPTS="--jobs=4 --load-average=4"
 EMERGE_DEFAULT_OPTS="${EMERGE_DEFAULT_OPTS} --keep-going --with-bdeps=y"
