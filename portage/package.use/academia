@@ -11,9 +11,8 @@ media-gfx/pstoedit                      imagemagick plotutils
 media-libs/plotutils                    png
 
 # Gnuplot
-sci-visualization/gnuplot               bitmap latex
-sci-visualization/gnuplot               qt5
-sci-visualization/gnuplot               -wxwidgets
+sci-visualization/gnuplot               bitmap doc latex
+sci-visualization/gnuplot               qt5 wxwidgets
 
 # Maxima
 sci-mathematics/maxima                  X sbcl tk
