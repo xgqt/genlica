@@ -25,6 +25,7 @@ app-office/libreoffice
 app-office/texmaker
 app-text/dvipng
 app-text/pandoc
+app-text/pdfgrep
 app-text/pdfjam
 dev-cpp/gtest
 dev-java/openjdk
