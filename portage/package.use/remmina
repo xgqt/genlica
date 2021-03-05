@@ -5,8 +5,8 @@
 
 # Dependencies
 net-libs/libvncserver                   gcrypt
+net-misc/freerdp                        gstreamer openh264 server
 
 net-misc/remmina                        -gnome-keyring
 net-misc/remmina                        crypt rdp
 net-misc/remmina                        spice ssh vnc
-net-misc/freerdp                        gstreamer openh264 server
