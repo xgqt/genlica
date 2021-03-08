@@ -20,13 +20,10 @@
 # Licensed under the GNU GPL v3 License
 
 
-image: gentoo/stage3-amd64:latest
-
-
 variables:
-  EMERGE_DEFAULT_OPTS: " --jobs=10 --keep-going"
+  EMERGE_DEFAULT_OPTS: " --jobs=10 --keep-going --noreplce --oneshot --quiet"
   FEATURES: "getbinpkg"
-  GIT_SUBMODULE_STRATEGY: recursive
+  GIT_SUBMODULE_STRATEGY: "recursive"
   MAKEOPTS: "--jobs=10"
   PORTAGE_BINHOST: "https://xgqt.gitlab.io/gentoo-mini-mirror/binpkgs"
   TERM: "dumb"
@@ -38,21 +35,27 @@ stages:
   - install
 
 
-before_script:
-  - mkdir /var/db/repos/gentoo
-  - emerge-webrsync
-
-
 test:
+  image: alpine:latest
   stage: test
+
+  before_script:
+    - apk update
+    - apk add bash shellcheck
+
   script:
-    - emerge -q dev-util/shellcheck-bin
     - bash ./test.sh
 
+
 install:
+  image: gentoo/stage3-amd64:latest
   stage: install
+
+  before_script:
+    - mkdir /var/db/repos/gentoo
+    - emerge-webrsync
+    - emerge app-admin/stow app-portage/cpuid2cpuflags
+
   script:
-    - emerge -q app-portage/cpuid2cpuflags
-    - emerge -q app-admin/stow
     - bash ./install
     - emerge -q bash
