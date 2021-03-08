@@ -54,7 +54,7 @@ install:
   before_script:
     - mkdir /var/db/repos/gentoo
     - emerge-webrsync
-    - emerge app-admin/stow app-portage/cpuid2cpuflags
+    - emerge app-admin/stow app-portage/cpuid2cpuflags dev-vcs/git
 
   script:
     - bash ./install
