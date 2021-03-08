@@ -1,0 +1,10 @@
+# -*- conf -*-
+
+
+# myov overlay
+
+# Genlica (https://gitlab.com/xgqt/genlica)
+app-portage/genlica::myov               **
+
+# Other software
+*/*::myov
