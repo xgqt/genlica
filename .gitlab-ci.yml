@@ -58,4 +58,4 @@ install:
 
   script:
     - bash ./install
-    - emerge -q bash
+    - emerge --usepkg-exclude "*" --quiet bash
