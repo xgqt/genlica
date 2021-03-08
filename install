@@ -134,7 +134,7 @@ sync-uri = https://github.com/gentoo-mirror/gentoo.git
 sync-user = root:portage
 EOF
     # Add myov too
-    cat > "${EPREFIX}/etc/portage/repos.conf/gentoo.conf" <<EOF
+    cat > "${EPREFIX}/etc/portage/repos.conf/myov.conf" <<EOF
 [myov]
 auto-sync = yes
 location = /var/db/repos/myov
@@ -146,7 +146,7 @@ sync-uri = https://gitlab.com/xgqt/myov.git
 sync-user = root:portage
 EOF
     # And localrepo
-    cat > "${EPREFIX}/etc/portage/repos.conf/gentoo.conf" <<EOF
+    cat > "${EPREFIX}/etc/portage/repos.conf/localrepo.conf" <<EOF
 [localrepo]
 auto-sync = no
 location = /var/db/repos/localrepo
