@@ -21,7 +21,7 @@
 
 
 variables:
-  EMERGE_DEFAULT_OPTS: " --jobs=10 --keep-going --noreplce --oneshot --quiet"
+  EMERGE_DEFAULT_OPTS: " --jobs=10 --keep-going --noreplace --oneshot --quiet"
   FEATURES: "getbinpkg"
   GIT_SUBMODULE_STRATEGY: "recursive"
   MAKEOPTS: "--jobs=10"
