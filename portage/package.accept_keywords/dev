@@ -2,4 +2,4 @@
 
 
 # localrepo for tests
-*/*::localrepo **
+*/*::localrepo                          **
