@@ -21,7 +21,7 @@
 
 
 variables:
-  EMERGE_DEFAULT_OPTS: " --jobs=10 --keep-going --noreplace --oneshot --quiet"
+  EMERGE_DEFAULT_OPTS: " --jobs=10 --keep-going --oneshot --quiet"
   FEATURES: "getbinpkg"
   GIT_SUBMODULE_STRATEGY: "recursive"
   MAKEOPTS: "--jobs=10"
@@ -54,7 +54,7 @@ install:
   before_script:
     - mkdir /var/db/repos/gentoo
     - emerge-webrsync
-    - emerge app-admin/stow app-portage/cpuid2cpuflags dev-vcs/git
+    - emerge --noreplace app-admin/stow app-portage/cpuid2cpuflags dev-vcs/git
 
   script:
     - bash ./install
