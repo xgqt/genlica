@@ -98,9 +98,26 @@ EMERGE_DEFAULT_OPTS="\${EMERGE_DEFAULT_OPTS} --jobs=$(nproc)"
 EOF
     fi
 
-    mkdir -p /var/db/repos/gentoo
-    mkdir -p /var/db/repos/localrepo
-    mkdir -p /var/db/repos/myov
+    mkdir -p "${EPREFIX}/var/db/repos/gentoo"
+    mkdir -p "${EPREFIX}/var/db/repos/localrepo"
+    mkdir -p "${EPREFIX}/var/db/repos/myov"
+
+    cat > "${EPREFIX}/var/db/repos/localrepo/metadata/layout.conf" <<EOF
+masters = gentoo
+
+cache-formats = md5-dict
+manifest-hashes = BLAKE2B
+manifest-required-hashes = BLAKE2B
+sign-commits = true
+sign-manifests = false
+thin-manifests = true
+update-changelog = false
+
+eapis-banned = 0 1 2 3 4 5 6
+EOF
+    cat > "${EPREFIX}/var/db/repos/localrepo/metadata/layout.conf" <<EOF
+localrepo
+EOF
 
     # Setup the gentoo repository
     # Edit this afterwards if you are on Eprefix or Funtoo
