@@ -101,7 +101,7 @@ EOF
     repos="${EPREFIX}/var/db/repos"
     for repo in "${repos}/gentoo" "${repos}/localrepo" "${repos}/myov"
     do
-        rm -r "${repo}"
+        [ -e "${repo}" ] && rm -r "${repo}"
         mkdir -p "${repo}"
     done
 
